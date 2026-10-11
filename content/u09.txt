@@ -1,0 +1,354 @@
+## A | ¡Haz lo que te digo!
+ref: el imperativo con tú y usted
+
+### Lee el texto y contesta
+img: 639-645
+:::dialog
+Dimitri Petrovich: Agente especial, ven aquí. Tenemos un problema en Madrid.
+Agente especial: Sí, señor Petrovich. ¿Qué pasa?
+Dimitri Petrovich: Hay muchas anomalías en la ciudad. Mira este informe.
+Agente especial: ¿Anomalías? ¿Dónde?
+Dimitri Petrovich: En el centro, en las plazas y en el Parque del Retiro. Algunas estatuas cobraron vida.
+Agente especial: ¿Las estatuas caminan?
+Dimitri Petrovich: Sí. Y no solo caminan. También comen paella por la ciudad.
+Agente especial: Eso es muy extraño.
+Dimitri Petrovich: Claro que es extraño. Escucha bien. Ve a Madrid ahora mismo.
+Agente especial: Sí, señor. Voy a ir a Madrid.
+Dimitri Petrovich: Busca las estatuas. Habla con ellas. No corras. No grites. Sé tranquilo.
+Agente especial: Entendido. Voy a buscar las estatuas y voy a hablar con ellas.
+Dimitri Petrovich: Además, la esfinge del Parque del Retiro se escapó.
+Agente especial: ¿La esfinge se escapó?
+Dimitri Petrovich: Sí. Encuéntrala. Llévala al parque. Y cierra la puerta mágica.
+Agente especial: Voy a encontrarla, voy a llevarla al parque y voy a cerrar la puerta mágica.
+Dimitri Petrovich: Muy bien. Pero ten cuidado. Madrid parece normal, pero no lo está.
+Agente especial: No se preocupe, señor Petrovich. Voy a hacer todo.
+Dimitri Petrovich: Entonces sal ahora. Toma el informe, llama si hay problemas y no pierdas tiempo.
+Agente especial: Sí, señor. Voy a salir ahora. Voy a tomar el informe y voy a llamar si hay problemas.
+Dimitri Petrovich: Perfecto. Y una cosa más: no comas paella con las estatuas.
+Agente especial: De acuerdo. No voy a comer paella con las estatuas.
+:::
+
+:::exercise Preguntas
+img: 639-647
+:::q
+¿Quién habla con el agente especial?
+¿En qué ciudad hay muchas anomalías?
+¿Qué pasó con algunas estatuas de Madrid?
+¿Qué comen las estatuas por la ciudad?
+¿Dónde hay anomalías?
+¿Qué animal de piedra se escapó del Parque del Retiro?
+¿Qué debe buscar el agente especial?
+:::
+:::
+
+ref: el imperativo con tú
+
+:::exercise Relaciona las órdenes que Luis da a las estatuas
+Observa los seis cuadros. Después, relaciona cada imagen con la orden correcta.
+img: 639-632 | | wide
+img: 639-634 | | wide
+**Órdenes:**
+:::words
+a. Deja de moverte.
+b. Quédate en tu lugar.
+c. Camina despacio.
+d. Escucha con atención.
+e. Regresa al parque.
+f. Busca tu pedestal.
+g. Habla más bajo.
+h. Mira el mapa.
+i. Espera aquí.
+j. Ayuda a tus compañeros.
+k. Cierra la puerta mágica.
+l. Dame una porción.
+:::
+:::
+
+:::cols
+:::col
+img: 639-633
+:::
+:::col
+img: 639-635
+:::
+:::
+
+:::exercise Da órdenes con tú
+img: 2307-65
+Mira la situación y da una orden a tu compañero.
+*Ejemplo:* La ventana está sucia. → ¡Lava la ventana!
+La mesa está sucia. → __________________________
+La puerta está abierta. → __________________________
+El mapa está en el suelo. → __________________________
+La estatua está lejos del parque. → __________________________
+El libro está cerrado. → __________________________
+La paella está fría. → __________________________
+:::
+
+## B | ¡No compares!
+ref: comparaciones
+
+### Lee el diálogo y contesta las preguntas
+img: 639-611
+:::dialog
+Marcos: Alicia, ¿qué novela de Robert Fader te gusta más: *El misterio de los Fader* o *Presentimiento*?
+Alicia: A mí me gusta más *El misterio de los Fader*. Me parece más misteriosa y más familiar.
+Marcos: ¿Más familiar?
+Alicia: Sí. En esa novela hay secretos de familia, personajes cercanos y muchos detalles que parecen pequeños, pero son importantes.
+Marcos: Entiendo. Pero a mí me gusta más *Presentimiento*. Es más intensa.
+Alicia: ¿Por qué?
+Marcos: Porque la historia ocurre después de una catástrofe global. Robert quiere construir una fortaleza y crear un mundo mejor, sin violencia ni guerras. Pero su proyecto tiene muchos problemas. Eso me parece muy interesante.
+Alicia: Sí, *Presentimiento* es más épica. Tiene más acción y más peligro.
+Marcos: Exacto. Para mí, *Presentimiento* es más dramática que *El misterio de los Fader*.
+Alicia: Pero *El misterio de los Fader* es más elegante. No necesita una catástrofe para crear tensión. El misterio está en los personajes, en el pasado y en las cosas que no se dicen.
+Marcos: Puede ser. Sin embargo, *Presentimiento* tiene un conflicto más grande.
+Alicia: Más grande, sí. Pero no siempre más grande significa mejor.
+Marcos: Buena frase. Entonces, para ti, *El misterio de los Fader* es mejor.
+Alicia: Sí. Es más íntima, más misteriosa y más emocionante.
+Marcos: Para mí, *Presentimiento* es mejor porque es más fuerte, más peligrosa y más filosófica.
+Alicia: Al final, las dos novelas son diferentes.
+Marcos: Sí. *El misterio de los Fader* es como una puerta cerrada.
+Alicia: Y *Presentimiento* es como una fortaleza en medio del fin del mundo.
+Marcos: Entonces estamos de acuerdo en algo.
+Alicia: ¿En qué?
+Marcos: En que Robert Fader no escribe novelas aburridas.
+Alicia: Eso sí. Una es más misteriosa y la otra es más épica, pero las dos tienen secretos.
+Marcos: Y las dos son buenas para discutir en clase.
+Alicia: Perfectas para comparar.
+:::
+
+:::exercise Preguntas sobre el diálogo
+img: 639-613
+:::q
+¿Qué dos novelas comparan Marcos y Alicia?
+¿Qué novela le gusta más a Alicia?
+¿Qué novela le gusta más a Marcos?
+¿Por qué a Alicia le gusta más El misterio de los Fader?
+¿Por qué a Marcos le gusta más Presentimiento?
+:::
+:::
+
+:::exercise Aprende la estructura básica de la comparación y haz comparaciones con las imágenes
+img: 639-621
+img: 691-6
+:::
+
+ref: más, menos, tan, mejor y peor
+
+:::exercise Completa con mejor que, peor que o tan… como
+Madrid es __________ grande __________ mi ciudad.
+El tren es __________ rápido __________ el caballo.
+Esta paella está __________ buena __________ la de ayer.
+El informe de Luis es __________ claro __________ el informe de Petrovich.
+La estatua habla __________ lento __________ una persona normal.
+Para mí, caminar por el Retiro es __________ interesante __________ quedarse en casa.
+Este mapa es __________ útil __________ el mapa viejo.
+La misión de Madrid es __________ difícil __________ la misión anterior.
+:::
+
+:::exercise Usa las palabras para escribir frases con mejor que, peor que o tan… como
+img: 639-623
+*Modelo:* el coche / rápido / el caballo → El coche es más rápido que el caballo.
+Madrid / grande / mi ciudad → ______________________________
+El Parque del Retiro / bonito / la Plaza Mayor → ______________________________
+Esta estatua / tranquila / la otra estatua → ______________________________
+El tren fantasma / misterioso / la fortaleza → ______________________________
+La paella de hoy / buena / la paella de ayer → ______________________________
+El informe nuevo / claro / el informe viejo → ______________________________
+:::
+
+## C | Aquí hay algo misterioso...
+ref: palabras indefinidas y negativas
+
+:::exercise Lee la carta y contesta verdadero o falso
+img: 2247-3
+:::vf
+En Sinea nunca pasa nada raro.
+Marcos vio algo azul sobre la torre central.
+Nadie quiso hablar demasiado con Marcos.
+Marcos encontró algo útil en la biblioteca.
+:::
+:::
+
+:::exercise Completa con algo, nada, alguien, nadie, ningún
+En Sinea siempre pasa __________ raro.
+Ayer Marcos vio __________ azul sobre la torre central.
+__________ dijo nada, pero todos miraron al cielo.
+En algunos barrios no pasa __________ especial.
+Marcos buscó información en la biblioteca, pero no encontró __________ útil.
+Marcos cree que hay __________ que sabe la verdad.
+En Sinea, __________ detalle es casual.
+Marcos preguntó a varias personas, pero __________ quiso hablar demasiado.
+Si __________ tiene un sueño extraño, todos lo escuchan.
+Robert todavía no sabe __________ sobre el secreto de Sinea.
+:::
+
+:::exercise 4. Relaciona
+:::cols
+:::col
+1. algo
+2. nada
+3. alguien
+4. nadie
+:::
+:::col
+A. Una persona no específica.
+B. Ninguna cosa.
+C. Ninguna persona.
+D. Una cosa no específica.
+:::
+:::
+:::
+
+img: 694-3
+
+:::exercise Completa las frases con tus ideas.
+En Sinea hay algo ________________________________.
+En la biblioteca no hay nada ________________________________.
+Alguien sabe ________________________________.
+Nadie quiere ________________________________.
+Marcos busca algo ________________________________.
+:::
+
+:::exercise Completa el texto con las palabras de la lista.
+**Palabras:** algo — algunas — alguien — todos — otras — algún — nadie — ninguna — otra
+
+**Algo no está bien en este mundo**
+
+__________ no está bien en este mundo. En __________ calles hay mucho silencio, pero __________ camina rápido y mira a __________ con miedo. Algunas personas hablan poco, __________ no dicen nada.
+
+En __________ lugar de la ciudad, una puerta se abre sola. __________ sabe por qué. __________ escucha un ruido extraño, pero no ve a __________ persona cerca.
+
+En la plaza hay __________ estatuas. Normalmente no se mueven, pero hoy una estatua mira a la gente. __________ estatua tiene un plato de paella en la mano. Ningún turista entiende qué pasa.
+
+Luis camina por Madrid y observa todo. Ve __________ raro en el parque, pero no dice nada. Después escucha una voz:
+—__________ debe cerrar la puerta mágica.
+
+Luis mira a su alrededor. No hay __________. Solo hay árboles, bancos y __________ sombras.
+
+Entonces comprende __________ importante: este mundo parece normal, pero no lo es. Alguna fuerza extraña está cambiando la ciudad. Luis no tiene __________ duda: debe actuar rápido.
+:::
+
+ref: algo, nada, alguien, nadie y ningún
+
+## D | Gramática
+:::box El imperativo: tú y usted
+**1. ¿Para qué usamos el imperativo?**
+Usamos el imperativo para dar órdenes, instrucciones, consejos o invitaciones.
+*Ejemplos:* Lee el texto. · Escucha el diálogo. · Mira la imagen. · Tome asiento, por favor. · Hable más despacio, por favor.
+:::
+
+:::cols
+:::col
+:::box 2. Imperativo con TÚ
+Usamos *tú* con amigos, familiares, compañeros o personas cercanas.
+**Verbos en -AR:** hablar → habla
+Habla más despacio. · Mira la pizarra. · Escucha la canción.
+**Verbos en -ER:** comer → come
+Come algo. · Lee el texto. · Aprende las palabras.
+**Verbos en -IR:** vivir → vive
+Vive tranquilo. · Escribe tu nombre. · Abre el libro.
+:::
+:::
+:::col
+:::box 3. Imperativo con USTED
+Usamos *usted* en situaciones formales o con personas desconocidas.
+**Verbos en -AR:** hablar → hable
+Hable más despacio, por favor. · Mire la imagen. · Escuche la pregunta.
+**Verbos en -ER:** comer → coma
+Coma algo. · Lea el texto. · Aprenda las palabras.
+**Verbos en -IR:** vivir → viva
+Viva tranquilo. · Escriba su nombre. · Abra el libro.
+:::
+:::
+:::
+
+:::gallery
+img: 639-570
+img: 2307-68
+:::
+
+:::cols
+:::col
+:::box Palabras indefinidas y negativas
+**ALGO** — usamos *algo* para hablar de una cosa no específica.
+Hay algo raro sobre la mesa. · Quiero comer algo. · Veo algo en la ventana.
+
+**NADA** — usamos *nada* para negar una cosa.
+No hay nada en la heladera. · No entiendo nada. · Hoy no quiero hacer nada.
+
+**ALGUIEN** — usamos *alguien* para hablar de una persona no específica.
+Quiero conocer a alguien interesante. · Hay alguien en la puerta. · Alguien llamó por teléfono.
+
+**NADIE** — usamos *nadie* para negar una persona.
+No hay nadie en casa. · Nadie sabe la verdad. · No conozco a nadie en esta ciudad.
+
+**ALGÚN / ALGUNO / ALGUNA / ALGUNOS / ALGUNAS** — usamos estas palabras para hablar de una cantidad no exacta.
+¿Tienes algún amigo alemán? · Tengo alguna idea. · Algunos estudiantes hablan español. · En Sinea hay algunas calles peligrosas.
+
+**NINGÚN / NINGUNO / NINGUNA** — usamos estas palabras para negar una cantidad.
+No tengo ningún problema. · Ninguno de ustedes tiene la razón. · No conozco ninguna ciudad como Sinea.
+:::
+:::
+:::col
+:::box Comparación en español
+**MÁS + ADJETIVO + QUE** — una cualidad en mayor grado.
+Luis es más alto que Marcos. · Esta casa es más grande que aquella. · El tigre es más fuerte que el gato.
+
+**MENOS + ADJETIVO + QUE** — una cualidad en menor grado.
+Marcos es menos serio que Alicia. · La bicicleta es menos rápida que la moto. · Este ejercicio es menos difícil que el otro.
+
+**TAN + ADJETIVO + COMO** — la misma cualidad.
+Alicia es tan inteligente como Marcos. · La princesa es tan elegante como la reina. · Este libro es tan interesante como aquel.
+
+**MEJOR QUE** — para comparar calidad.
+Este libro es mejor que aquel. · El café de esta cafetería es mejor que el café de la estación.
+
+**PEOR QUE** — para comparar mala calidad o una situación negativa.
+Este día es peor que ayer. · Esta idea es peor que la anterior.
+
+**MAYOR QUE** — para comparar edad o tamaño de forma más formal.
+Mi hermano es mayor que yo. · Esta ciudad es mayor que aquella.
+
+**MENOR QUE** — para comparar edad o tamaño de forma más formal.
+Ana es menor que Luis. · Este problema es menor que el anterior.
+:::
+:::
+:::
+
+## E | Cultura
+### La ciudad de Madrid
+*Lee el texto.*
+
+Madrid es la capital de España. Es una ciudad grande, moderna y muy activa. En Madrid hay museos, parques, plazas, teatros, restaurantes y muchos monumentos famosos.
+
+Madrid nació en la Edad Media. Su origen está en el siglo IX, cuando el emir Muhammad I de Córdoba fundó una fortaleza musulmana llamada Mayrit. Esta fortaleza estaba cerca del río Manzanares. Con el tiempo, el lugar creció y se convirtió en una ciudad importante.
+
+Hoy Madrid es una ciudad con mucha historia. En el centro está la Plaza Mayor, una plaza muy famosa del Madrid antiguo. También está la Puerta del Sol, un lugar muy conocido y siempre lleno de gente. Allí muchas personas se reúnen para celebrar el Año Nuevo.
+
+Otro monumento muy famoso es la Puerta de Alcalá. Fue construida en el siglo XVIII y está cerca del Parque del Retiro. Es uno de los símbolos de Madrid.
+
+Madrid también tiene el Palacio Real, uno de los palacios más importantes de Europa. Cerca de allí está la Catedral de la Almudena. En el Parque del Retiro hay jardines, un lago y estatuas. Es un lugar ideal para caminar, descansar o pasear en barca.
+
+Una curiosidad de Madrid es su escudo: aparece un oso apoyado en un árbol llamado madroño. Por eso, la estatua de El Oso y el Madroño es otro símbolo de la ciudad. También es curiosa la Gran Vía, una calle con muchos teatros, tiendas y edificios elegantes.
+
+Madrid es una ciudad para caminar, mirar, aprender y disfrutar. Tiene historia antigua, vida moderna y una cultura muy rica.
+
+img: 639-562 | | wide
+
+## F | Historieta
+img: 639-553 | | comic
+
+## N | Notas importantes
+### Estatuas y monumentos de Madrid
+img: 2308-77 | | wide
+:::glossary
+La Cibeles: representa a la diosa Cibeles en un carro tirado por dos leones. Es uno de los símbolos más famosos de Madrid.
+La fuente de Neptuno: representa a Neptuno, dios romano del mar. Lleva un tridente y aparece sobre un carro.
+El Oso y el Madroño: es uno de los principales símbolos de Madrid. Representa un oso apoyado en un madroño.
+La estatua de Felipe III: está en la Plaza Mayor. Representa al rey Felipe III montado a caballo.
+El monumento a Cervantes: está dedicado al escritor Miguel de Cervantes. También aparecen Don Quijote y Sancho Panza, los personajes más famosos de su novela.
+El Ángel Caído: está en el parque del Retiro. Representa la caída de Lucifer y es una de las estatuas más curiosas de Madrid.
+:::
+
+img: 639-545

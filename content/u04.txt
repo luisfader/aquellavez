@@ -1,0 +1,403 @@
+## A | Me encanta mi ciudad
+ref: hay, estar y artículos
+
+### Mi ciudad: Sinea
+img: 634-670
+Hola, me llamo Marcos. Vivo en Sinea, una ciudad muy tranquila, pero bastante misteriosa.
+
+En Sinea hay una estación central. También hay una plaza central muy bonita. En la plaza hay un monumento a Luis Fader, el héroe nacional.
+
+En la ciudad hay supermercados, museos y parques. También hay barrios diferentes. Está el barrio de los locos, el barrio de los ricos tristes y el barrio de los pobres felices.
+
+Me gusta vivir en Sinea porque es una ciudad especial. Cada lugar tiene una historia. A veces Sinea es tranquila, pero a veces pasan cosas muy extrañas.
+
+### Mi barrio preferido
+img: 634-673
+Mi barrio preferido es el barrio de los locos. Es un lugar muy especial de Sinea. No es un barrio normal, pero es muy divertido.
+
+En el barrio de los locos hay casas de muchos colores. Hay calles pequeñas, tiendas raras y cafés con música. También hay personas con ropa extraña, sombreros grandes y muchas ideas divertidas.
+
+En este barrio hay una plaza pequeña. En la plaza hay artistas, músicos y gente que habla mucho. También hay dibujos en las paredes y flores en las ventanas.
+
+En el barrio de los locos no hay silencio. No hay tristeza. Tampoco hay personas aburridas.
+
+Me gusta este barrio porque siempre pasa algo diferente. Para mí, el barrio de los locos es alegre, misterioso y muy vivo.
+
+:::exercise Preguntas de comprensión
+:::q
+¿Cuál es el barrio preferido de Marcos?
+¿Qué hay en el barrio de los locos?
+¿Cómo son las casas del barrio?
+¿Qué no hay en el barrio de los locos?
+¿Por qué le gusta este barrio a Marcos?
+:::
+:::
+
+:::exercise Verdadero o falso. Escribe V si la frase es verdadera y F si la frase es falsa.
+:::vf
+Marcos vive en Sinea.
+Sinea es una ciudad tranquila y misteriosa.
+En Sinea no hay estación central.
+En la plaza central hay un monumento a Luis Fader.
+En Sinea hay supermercados, museos y parques.
+El barrio preferido de Marcos es el barrio de los ricos tristes.
+En el barrio de los locos hay casas de muchos colores.
+En el barrio de los locos hay silencio.
+:::
+:::
+
+:::tip
+**HAY / ESTÁ — Recuerda:**
+**HAY** = existe / existen. *Ejemplo:* En Sinea hay una estación central.
+**ESTÁ** = ubicación de una cosa o lugar específico. *Ejemplo:* La estación central está en Sinea.
+:::
+
+img: 634-683
+
+:::exercise 3. Completa con HAY o ESTÁ
+1. En Sinea __________ una estación central.
+2. La estación central __________ cerca de la plaza.
+3. En la plaza __________ un monumento a Luis Fader.
+4. El monumento __________ en la plaza central.
+5. En Sinea __________ supermercados.
+6. El barrio de los locos __________ cerca del centro.
+7. En el barrio de los locos __________ casas de muchos colores.
+8. La plaza pequeña __________ en el barrio de los locos.
+9. En la plaza pequeña __________ artistas y músicos.
+10. Marcos __________ en el barrio de los locos.
+:::
+
+:::exercise 4. Mira el mapa de Sinea y explica cómo llegar de un lugar a otro
+img: 634-685 | | wide
+**Usa expresiones como:** sigue recto / ve derecho · gira a la derecha · gira a la izquierda · cruza la plaza · está al lado de · está cerca de · está enfrente de
+
+*Ejemplo:* ¿Cómo voy de la Estación Central a la Plaza Central? → Sigue recto por la Av. Natalia mi amor. La Plaza Central está enfrente.
+:::q
+¿Cómo llegas de la Estación Central al Monumento a Luis Fader?
+¿Cómo llegas de la Plaza Central al Barrio de los Locos?
+¿Cómo llegas del Barrio de los Pobres Felices al Parque de la Esperanza?
+¿Cómo llegas de la Plaza Central al Barrio de los Ricos Tristes?
+¿Cómo llegas del Monumento a Luis Fader al Parque del Sur?
+¿Cómo llegas del Museo de Arte Moderno a la Plaza de la Música?
+¿Cómo llegas del Supermercado Buen Vecino a la Plaza Central?
+¿Cómo llegas del Museo de Historia de Sinea al Supermercado El Brillante?
+¿Cómo llegas del Barrio de los Locos al Parque del Norte?
+¿Cómo llegas de la Estación Central al Barrio de los Pobres Felices?
+:::
+:::
+
+ref: hay y estar
+
+## B | En el metro
+ref: hay y estar
+
+### En el metro de Sinea
+*Lee el diálogo y contesta las preguntas.*
+img: 2869-18
+:::dialog
+Turista 1: Estamos en Zmaj. ¿Cómo vamos a Plaza de la Música?
+Turista 2: Creo que tomamos la línea azul hasta Parque.
+Turista 1: Sí, primero vamos en la línea azul hasta Parque.
+Turista 2: Después cambiamos a la línea amarilla, ¿no?
+Turista 1: No, amor, eso no es correcto. La línea amarilla no va a Plaza de la Música.
+Turista 2: Ah, es verdad. Entonces cambiamos a la línea roja.
+Turista 1: Exacto. En Parque cambiamos a la línea roja.
+Turista 2: ¿Y vamos en dirección a Barrio de los Locos?
+Turista 1: Sí. Pasamos por Casa de gobierno, Ondas de Amor y Natalia mi amor.
+Turista 2: Y después llegamos a Plaza de la Música.
+Turista 1: Perfecto. Entonces: Zmaj, línea azul hasta Monumento Luis Fader, cambiamos a Parque, tomamos la línea roja y después Plaza de la Música.
+Turista 2: Muy bien. Vamos juntos, así no me pierdo.
+Turista 1: Sí, pero mira bien el mapa. En Sinea es fácil perderse.
+:::
+
+:::exercise Contesta verdadero o falso
+img: 634-628
+:::vf
+Los dos turistas están en Sinea.
+Los turistas están en la estación Zmaj.
+Los turistas quieren ir a Plaza de la Música.
+Primero toman la línea roja.
+Primero toman la línea azul.
+En Parque cambian de línea.
+En Parque cambian a la línea amarilla.
+:::
+:::
+
+img: 2868-15
+
+### Aprende los números
+ref: los números del 100 al 1000
+img: 634-639
+
+:::box Cómo se forman los números
+En español, muchos números se forman uniendo partes pequeñas.
+
+**Primero aprendemos las centenas:**
+100 = cien · 200 = doscientos · 300 = trescientos · 400 = cuatrocientos · 500 = quinientos · 600 = seiscientos · 700 = setecientos · 800 = ochocientos · 900 = novecientos
+
+**Después agregamos las decenas y las unidades.** Por ejemplo:
+125 = ciento veinticinco · 236 = doscientos treinta y seis · 348 = trescientos cuarenta y ocho · 677 = seiscientos setenta y siete · 999 = novecientos noventa y nueve
+
+Cuando el número termina en 00, usamos solo la centena:
+200 = doscientos · 400 = cuatrocientos · 800 = ochocientos
+
+Pero cuando hay más números después de 100, usamos **ciento**:
+100 = cien · 101 = ciento uno · 115 = ciento quince · 130 = ciento treinta
+
+Con **mil** es muy fácil:
+1000 = mil · 2000 = dos mil · 3000 = tres mil
+
+**Ejemplos:**
+1492 = mil cuatrocientos noventa y dos
+2014 = dos mil catorce
+5399 = cinco mil trescientos noventa y nueve
+20412 = veinte mil cuatrocientos doce
+:::
+
+img: 634-641
+
+:::exercise Escribe el dictado de números
+img: 634-643
+______________________________
+:::
+
+## C | Mi casa es tu casa
+ref: hay, estar y artículos
+
+### La casa antigua
+*Lee el diálogo y contesta las preguntas.*
+img: 634-614
+:::dialog
+Hombre: Bienvenida a mi casa.
+Mujer: No me gusta.
+Hombre: ¿No te gusta? Pero es una casa muy antigua de San Petersburgo.
+Mujer: Precisamente por eso. Es demasiado antigua.
+Hombre: Aquí hay una sala grande. Hay cuadros en las paredes, un piano viejo y una lámpara de cristal.
+Mujer: La sala es oscura. Y la lámpara parece triste.
+Hombre: También hay una biblioteca. Tiene muchos libros, mapas antiguos y cartas de mi familia.
+Mujer: Hay demasiado polvo. Tus libros parecen fantasmas.
+Hombre: En el comedor hay una mesa de madera. Es muy elegante. Aquí cenaban mis abuelos.
+Mujer: La mesa es enorme. Parece una mesa para una reunión de vampiros.
+Hombre: En el pasillo hay retratos antiguos.
+Mujer: Sí, y todos me miran. No me gusta.
+Hombre: Arriba hay un balcón. Desde allí se ve una calle tranquila y el cielo de San Petersburgo.
+Mujer: El balcón es bonito, pero hace frío.
+Hombre: También hay una habitación con música. Tengo discos, partituras y un violonchelo.
+Mujer: El violonchelo me gusta un poco. Pero solo un poco.
+Hombre: En la cocina hay té, café y pasteles.
+Mujer: El té está frío. El café es fuerte. Y los pasteles son sospechosos.
+Hombre: De acuerdo, no te gusta. Eres libre de irte.
+Mujer: No puedo.
+Hombre: ¿Por qué?
+Mujer: Porque en realidad me gusta tu casa.
+Hombre: ¿De verdad?
+Mujer: Sí. Es rara, antigua, oscura y fría… pero me gusta.
+Hombre: Entonces no es tan horrible.
+Mujer: No. Y además… me gustas tú.
+:::
+
+img: 634-615
+
+:::exercise Preguntas sobre el diálogo
+:::q
+¿Dónde están los personajes?
+¿Qué dice el hombre al principio?
+¿A la mujer le gusta la casa al principio?
+¿Qué hay en la casa del hombre?
+¿Por qué la mujer no se va?
+¿Qué le dice la mujer al hombre al final?
+:::
+:::
+
+:::exercise Escribe V si la frase es verdadera y F si la frase es falsa.
+:::vf
+Los personajes están en una casa antigua.
+La casa está en San Petersburgo.
+Al principio, a la mujer le gusta mucho la casa.
+En la casa hay una sala grande.
+:::
+:::
+
+img: 634-601
+
+:::exercise Aprende los nombres de los muebles y une con su descripción
+img: 634-600
+a. Sirve para dormir.
+b. Sirve para guardar la ropa.
+c. Sirve para sentarse.
+d. Sirve para comer o trabajar.
+e. Sirve para poner libros.
+f. Sirve para mirar tu cara.
+g. Sirve para iluminar la habitación.
+h. Sirve para descansar en el salón.
+i. Sirve para escribir, leer o trabajar.
+j. Sirve para poner una lámpara al lado de la cama.
+k. Sirve para guardar ropa pequeña.
+l. Sirve para mirar la calle o el jardín.
+m. Sirve para decorar el suelo.
+:::
+
+:::exercise ¿Qué significa esta frase? Explica con tus propias palabras
+img: 634-604
+______________________________
+:::
+
+## D | Gramática
+:::cols
+:::col
+:::exercise 1. HAY / ESTÁ. Completa con HAY o ESTÁ.
+a. En Sinea __________ una estación central.
+b. La estación central __________ en el centro.
+c. En la plaza central __________ un monumento.
+d. El monumento a Luis Fader __________ en la plaza.
+e. En Sinea __________ museos y supermercados.
+f. El barrio de los locos __________ cerca de la plaza.
+g. En la casa __________ una biblioteca.
+h. La biblioteca __________ al lado del pasillo.
+i. En el salón __________ un sofá.
+j. El sofá __________ en el salón.
+:::
+:::exercise 2. EL / LA / LOS / LAS. Completa con el artículo correcto.
+a. __________ ciudad
+b. __________ estación
+c. __________ museo
+d. __________ plaza
+e. __________ monumento
+f. __________ casa
+g. __________ biblioteca
+h. __________ pasillo
+i. __________ cama
+:::
+:::
+:::col
+:::exercise 3. UN / UNA / UNOS / UNAS. Completa con UN, UNA, UNOS o UNAS.
+a. En Sinea hay __________ museo.
+b. En la plaza hay __________ monumento.
+c. En la casa hay __________ biblioteca.
+d. En el salón hay __________ sofá.
+e. En la habitación hay __________ cama.
+f. En la biblioteca hay __________ libros.
+g. En la cocina hay __________ mesa.
+h. En la calle hay __________ supermercados.
+i. En el barrio hay __________ casas de colores.
+j. En el pasillo hay __________ retratos antiguos.
+:::
+:::exercise 4. SER / ESTAR. Completa con ES o ESTÁ.
+a. Sinea __________ una ciudad misteriosa.
+b. La estación central __________ en Sinea.
+c. El barrio de los locos __________ muy divertido.
+d. El monumento __________ en la plaza central.
+e. La casa del hombre __________ antigua.
+f. La biblioteca __________ grande.
+g. El sofá __________ en el salón.
+h. La cocina __________ pequeña.
+i. Marcos __________ en el barrio de los locos.
+j. La plaza central __________ bonita.
+:::
+:::
+:::
+
+:::exercise Mira la imagen y escribe V (verdadero) o F (falso)
+img: 2308-85
+:::vf
+En la imagen hay una cámara fotográfica.
+La cámara está a la izquierda del libro.
+El balón de fútbol está a la izquierda de la guitarra.
+El libro está entre la guitarra y la taza.
+La bicicleta está debajo del libro.
+Los auriculares están a la izquierda de la bicicleta.
+Las cartas están debajo de la cámara.
+La sombrilla está a la derecha de las cartas.
+El mando de videojuegos está debajo de los auriculares.
+La taza está a la izquierda del libro.
+:::
+:::
+
+:::exercise 5. Los números: 100 – 1000. Escribe el número con palabras.
+img: 634-565
+a. 100 ______________________
+b. 200 ______________________
+c. 300 ______________________
+d. 400 ______________________
+e. 500 ______________________
+f. 600 ______________________
+g. 700 ______________________
+h. 800 ______________________
+i. 900 ______________________
+j. 1000 ______________________
+:::
+
+:::exercise 6. Los números en frases. Completa con el número correcto en palabras.
+img: 634-566
+a. En la ciudad hay 100 casas. En la ciudad hay ______________________ casas.
+b. En el museo hay 200 cuadros. En el museo hay ______________________ cuadros.
+c. En la biblioteca hay 300 libros. En la biblioteca hay ______________________ libros.
+d. En la plaza hay 400 personas. En la plaza hay ______________________ personas.
+e. En Sinea hay 500 historias. En Sinea hay ______________________ historias.
+f. En el barrio hay 600 ventanas. En el barrio hay ______________________ ventanas.
+g. En la estación hay 700 pasajeros. En la estación hay ______________________ pasajeros.
+h. En la casa hay 800 objetos antiguos. En la casa hay ______________________ objetos antiguos.
+:::
+
+:::box Años importantes en la historia de España e Hispanoamérica
+**1492** — Cristóbal Colón llega a América.
+**1810** — Comienzan varios movimientos de independencia en Hispanoamérica.
+**1816** — Argentina declara su independencia.
+**1821** — México declara su independencia.
+**1898** — España pierde sus últimas grandes colonias en América.
+**1936** — Comienza la Guerra Civil Española.
+**1978** — España aprueba una nueva Constitución.
+**1983** — Argentina recupera la democracia.
+:::
+
+## E | Cultura
+### Las ciudades de estilo español
+*Lee el texto.*
+
+Muchas ciudades de Hispanoamérica tienen un estilo español. En el centro hay una plaza central. La plaza central es el corazón de la ciudad.
+
+Cerca de la plaza hay edificios importantes. Por ejemplo, hay una iglesia, una casa de gobierno, un museo o un banco. También hay cafés, tiendas y calles con mucha gente.
+
+Alrededor de la plaza central hay otras plazas pequeñas. Estas plazas se llaman plazas aledañas. Son plazas cercanas. En ellas hay árboles, bancos, flores y personas que caminan.
+
+Las calles forman cuadras. Una cuadra es una parte de la calle entre dos esquinas. En muchas ciudades, las calles son rectas y ordenadas. Por eso es fácil caminar y encontrar lugares.
+
+Los españoles construyeron muchas ciudades con este modelo. Primero elegían un lugar para la plaza central. Después construían las calles alrededor. Luego aparecían las casas, los edificios públicos, los mercados y los barrios.
+
+**Por eso, en muchas ciudades podemos decir:**
+En el centro hay una plaza. La iglesia está cerca de la plaza. El museo está al lado del banco. La casa de gobierno está enfrente de la plaza. El mercado está a dos cuadras.
+
+Este estilo es antiguo, pero todavía existe. Muchas ciudades modernas conservan su plaza central, sus calles rectas y sus barrios alrededor.
+
+img: 634-542
+
+:::exercise 2. Preguntas de comprensión
+:::q
+¿Qué hay en el centro de muchas ciudades de estilo español?
+¿Por qué la plaza central es importante?
+¿Qué edificios importantes puede haber cerca de la plaza central?
+¿Qué son las plazas aledañas?
+¿Qué hay en las plazas pequeñas?
+¿Qué es una cuadra?
+¿Cómo son las calles en muchas ciudades de estilo español?
+¿Qué construían primero los españoles?
+¿Qué aparecía después de la plaza y las calles?
+¿El mercado puede estar cerca o lejos de la plaza?
+¿Este estilo de ciudad es antiguo o moderno?
+¿Muchas ciudades modernas todavía conservan la plaza central?
+:::
+:::
+
+## F | Historieta
+img: 717-7 | | comic
+
+## N | Notas importantes
+:::glossary
+Cuadra: tramo de una calle entre dos esquinas. | La escuela está a dos cuadras de la plaza.
+Caminar: ir de un lugar a otro a pie. | Me gusta caminar por la ciudad.
+Elegir: escoger una opción entre varias. | Voy a elegir el camino más corto.
+Plazas aledañas: plazas que están cerca de un lugar principal o alrededor de una zona. | Después visitamos las plazas aledañas al centro histórico.
+Descansar: detener una actividad para recuperar energía o tranquilidad. | Nos sentamos en un banco para descansar.
+:::
+
+img: 634-537

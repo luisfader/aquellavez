@@ -1,0 +1,417 @@
+## A | Las cosas que me gustan
+ref: el verbo gustar
+
+### Lee el texto y traduce
+img: 639-132
+Hola. Me llamo Alicia y soy astróloga. Viajo en el tren fantasma con Marcos, pero somos muy diferentes.
+
+A mí me gustan las estrellas, la astrología y los misterios del universo. Siempre quiero hablar sobre la energía de los lugares y las señales del destino. Marcos, en cambio, es detective. Él no cree mucho en esas cosas. Prefiere buscar pruebas, hacer preguntas y encontrar explicaciones lógicas.
+
+A mí me gusta mirar la luna por la ventana del tren. Marcos prefiere revisar mapas y documentos. Yo quiero escuchar las historias extrañas de los pasajeros, pero él piensa que muchas personas mienten.
+
+También tenemos gustos diferentes en las estaciones. A mí me gustan las estaciones silenciosas y misteriosas. Marcos prefiere los lugares tranquilos y seguros. Yo digo que algunas cosas no tienen explicación, pero él siempre quiere entender todo.
+
+A veces discutimos un poco por estas diferencias. Sin embargo, me gusta viajar con él porque es inteligente y valiente. Y creo que, en el fondo, el tren fantasma necesita personas diferentes para continuar el viaje.
+
+:::exercise Indica qué cosas le gustan a Marcos y qué cosas le gustan a Alicia
+img: 639-120 | | wide
+*Ejemplo:* A Alicia le gustan las estrellas.
+______________________________
+:::
+
+:::tip
+img: 639-134
+El verbo **gustar** se utiliza de otra manera.
+:::
+
+:::exercise Escribe dos cosas que te gustan y dos que no te gustan
+img: 639-124
+______________________________
+:::
+
+:::exercise Contesta las preguntas
+A. ¿Te gusta viajar? ¿Por qué?
+B. ¿Qué colores te gustan?
+C. ¿Dónde te gusta descansar?
+D. ¿Con quién te gusta pasar las vacaciones?
+:::
+
+:::exercise Completa las oraciones con el pronombre correcto (me / te / le / nos / les)
+A Alicia ______ gusta la astrología.
+A Marcos ______ gustan los mapas antiguos.
+A mí ______ gusta el café.
+A nosotros ______ gustan los misterios.
+A ustedes ______ gusta el tren fantasma.
+A ti ______ gustan las estrellas.
+A Marcos y Alicia ______ gusta viajar en tren.
+A los detectives ______ gustan las pruebas.
+A Alicia ______ gustan los libros de astrología.
+A mí y a Marcos ______ gusta investigar.
+:::
+
+:::exercise 6. Escribe gusta o gustan
+Me ______ la luna.
+Le ______ los mapas.
+Nos ______ el café.
+Te ______ las estrellas.
+Les ______ los misterios.
+Me ______ la astrología.
+Le ______ las pruebas.
+Nos ______ viajar en tren.
+A Natalia ______ los libros románticos.
+A Roberto ______ la música clásica.
+A Luis ______ las motos.
+A Sasha ______ el chocolate.
+A la violonchelista ______ tocar el violonchelo.
+A nosotros ______ las películas de misterio.
+A ti ______ el té.
+A ellos ______ los mapas antiguos.
+:::
+
+:::exercise Escribe frases: ¿Qué les gusta a los personajes?
+img: 639-103
+*Ejemplo:* Yo creo que a Natalia le gusta escribir. A mí me parece que a Sasha le gusta la pintura.
+**Lista de objetos:**
+:::words
+Los libros
+El café
+La cámara de fotos (sacar fotos)
+La música
+La pintura
+Las motos
+La geografía, los mapas
+La astronomía
+Las tortas
+El carnaval
+Hacer ejercicio
+Escribir
+El cubo mágico (cubo de Rubik)
+Los teléfonos móviles / Los celulares
+:::
+:::
+
+ref: gusta, gustan y los pronombres me, te, le, nos y les
+
+## B | ¡A comer!
+ref: gustar para expresar preferencias
+
+### La cocina hispana: platos famosos
+*Lee la lista de platos famosos del mundo hispanohablante.*
+img: 639-81
+:::table
+País | Plato | Descripción
+España | La paella | Arroz con mariscos, pollo o verduras.
+España | La tortilla española | Tortilla con papas y huevos.
+México | Los tacos | Tortillas con carne, pollo, pescado o verduras.
+México | El guacamole | Salsa de aguacate, tomate, cebolla y limón.
+Argentina | El asado | Carne a la parrilla.
+Argentina | Las empanadas | Masa rellena de carne, pollo, queso o verduras.
+Perú | El ceviche | Pescado con limón, cebolla y ají.
+Perú | La causa limeña | Plato frío con papa, pollo o atún.
+Colombia | Las arepas | Pan de maíz. Se comen con queso, carne o huevos.
+Colombia | La bandeja paisa | Plato con arroz, frijoles, carne, huevo y plátano.
+:::
+
+img: 639-83
+
+:::exercise Contesta las preguntas
+a. ¿Cuál es tu plato preferido de la cocina hispana?
+b. ¿Te gusta cocinar? ¿Qué sabes hacer?
+c. ¿Cuál es la diferencia entre tu cocina y la cocina hispana?
+d. ¿Qué restaurantes sueles frecuentar?
+:::
+
+:::exercise Clasifica los alimentos en la columna correcta
+img: 639-97
+**Alimentos:** pollo — manzana — queso — arroz — carne de vaca — tomate — leche — pan — pescado — banana — yogur — huevos — lechuga — zanahoria — manteca — pasta — jamón — naranja — crema — aceite
+:::table
+Carne | Frutas y verduras | Lácteos | Otros
+___ | ___ | ___ | ___
+___ | ___ | ___ | ___
+___ | ___ | ___ | ___
+:::
+**Preguntas**
+¿Qué frutas te gustan?
+¿Qué verduras comes normalmente?
+¿Tomas leche o yogur?
+¿Comes carne, pollo o pescado?
+:::
+
+:::exercise Completa los nombres de los objetos
+img: 639-98 | | wide
+:::
+
+## C | No quiero nada
+ref: querer y poder + infinitivo
+
+### Lee el texto y contesta las preguntas
+img: 639-62
+:::dialog
+Hombre: Mira el menú.
+Mujer: No quiero nada.
+Hombre: Elige algo, por favor.
+Mujer: No sé. No tengo hambre.
+Hombre: Entonces no comas.
+Mujer: ¿Cómo que no coma?
+Hombre: Sí, no comas. Toma solo agua.
+Mujer: No. Quiero comer algo.
+Hombre: Entonces decide.
+Mujer: No sé… Todo parece aburrido.
+Hombre: Bueno, no pidas nada. Mírame comer.
+Mujer: No seas malo.
+Hombre: Entonces pide una ensalada.
+Mujer: No, ensalada no.
+Hombre: Pide sopa.
+Mujer: No, sopa tampoco.
+Hombre: Entonces pide pollo con papas.
+Mujer: Mmm… No.
+Hombre: Perfecto. No pidas pollo. Pide solo pan.
+Mujer: ¡No! Quiero pollo con papas.
+Hombre: Muy bien. Díselo al camarero.
+Camarero: Buenas noches. ¿Qué desean?
+Hombre: Traiga una botella de agua, por favor.
+Camarero: Muy bien. ¿Y para comer?
+Hombre: Habla tú.
+Mujer: Espere… No sé.
+Hombre: No la escuche. Ella no quiere nada.
+Mujer: ¡Sí quiero! Tráigame pollo con papas, por favor.
+Camarero: Perfecto. ¿Y usted, señor?
+Hombre: Tráigame una paella pequeña.
+Camarero: Muy bien. ¿Algo más?
+Mujer: Sí. Traiga pan también.
+Hombre: ¿Ves? Ahora sí tienes hambre.
+Mujer: Cállate y pide postre después.
+Hombre: De acuerdo. Come tranquila.
+Camarero: Muy bien. Enseguida les traigo la comida.
+:::
+
+img: 639-64
+
+:::exercise Preguntas
+:::q
+¿Dónde están el hombre y la mujer?
+¿Qué mira la mujer?
+¿La mujer tiene hambre al principio?
+¿Qué le dice el hombre a la mujer?
+¿Qué técnica usa el hombre para ayudarla a decidir?
+¿Qué decide comer la mujer al final?
+:::
+:::
+
+### Explica qué tienen que hacer los personajes
+ref: tener que + infinitivo
+img: 1971-3
+
+:::box Tener que + infinitivo
+Usamos **tener que + infinitivo** para expresar una obligación, una necesidad o algo que una persona debe hacer.
+**Estructura:** persona + tener conjugado + que + verbo en infinitivo
+:::
+
+:::exercise Completa con la forma correcta de tener
+Yo __________ que estudiar español.
+Tú __________ que ir al supermercado.
+Alicia __________ que comprar frutas.
+Nosotros __________ que hacer la tarea.
+Ustedes __________ que leer el texto.
+Marcos y Natalia __________ que tomar el tren.
+Laura no __________ que trabajar hoy.
+¿Tú __________ que cocinar?
+:::
+
+:::box Verbos parecidos a gustar
+Estos verbos funcionan de manera similar a *gustar*. Usamos pronombres como: me, te, le, nos, les.
+
+**✨ Encantar** — se usa para expresar que algo gusta muchísimo.
+Me encanta la música. · A Natalia le encantan las flores. · Nos encanta viajar en tren.
+
+**😊 Alegrar** — se usa para expresar felicidad.
+Me alegra tu mensaje. · A Roberto le alegran las buenas noticias. · Nos alegra verte aquí.
+
+**😍 Interesar** — se usa para hablar de intereses.
+Me interesa la astrología. · A Luis le interesan los mapas antiguos. · Nos interesa la historia.
+:::
+
+img: 639-68
+
+## D | Gramática
+:::box Querer y poder + infinitivo
+Estos verbos se usan muchas veces con otro verbo en infinitivo.
+
+**Querer + infinitivo** — se usa para expresar un deseo.
+Quiero visitar a mi abuela. · Ella quiere aprender español. · Nosotros queremos comer en casa.
+
+**Poder + infinitivo** — se usa para expresar posibilidad, capacidad o permiso.
+¿Puedes venir a mi casa? · No puedo salir porque tengo que estudiar. · Ellos pueden llegar más tarde.
+:::
+
+img: 639-32
+
+:::exercise Completa con la forma correcta de querer o poder, según sea necesario.
+a. __________ ir a visitar a mi abuela. (yo)
+b. No __________ llegar a la estación porque la calle está cerrada. (nosotros)
+c. ¿Qué __________ comer para el almuerzo? (ustedes)
+d. ¿No __________ avisar antes de venir a mi casa? (tú)
+e. Los chicos no __________ salir esta noche porque tienen que trabajar.
+f. Todos nosotros __________ vivir en paz.
+:::
+
+:::exercise ¿Dónde dicen estas situaciones? Relaciona las frases con los posibles lugares.
+:::cols
+:::col
+1. Deme medio kilo de pan.
+2. Pásame la sal, por favor.
+3. Tráigame un poco de agua, por favor.
+4. Disculpe, ¿me dice la hora?
+5. Ve a abrirle la puerta a mamá.
+6. Pase y siéntese, por favor.
+7. Abre el libro en la página doce.
+8. Dame una servilleta, por favor.
+:::
+:::col
+a. En el consultorio del médico.
+b. En la clase de español.
+c. En casa.
+d. En la calle con un desconocido.
+e. En el restaurante.
+f. En la cena familiar.
+g. En la panadería.
+h. En una cafetería.
+:::
+:::
+:::
+
+:::box El verbo gustar
+El verbo *gustar* se usa para hablar de gustos y preferencias. En español, normalmente no decimos:
+**Yo gusto el café. ❌**
+Decimos:
+**Me gusta el café. ✅**
+:::
+
+img: 639-43
+
+:::exercise 3. Completa con gusta o gustan
+Me __________ el café.
+Me __________ las frutas.
+A Natalia le __________ la música.
+A Juan le __________ los deportes.
+Nos __________ estudiar español.
+Les __________ las verduras.
+¿Te __________ el chocolate?
+¿Te __________ las manzanas?
+No me __________ la cebolla.
+No nos __________ los lunes.
+:::
+
+:::exercise 4. Completa con me, te, le, nos o les
+A mí __________ gusta la pizza.
+A ti __________ gustan los libros.
+A él __________ gusta el arroz.
+A nosotros __________ gusta cocinar.
+A ustedes __________ gustan las películas.
+A ellas __________ gusta bailar.
+A María __________ gustan las flores.
+A mis amigos __________ gusta el fútbol.
+:::
+
+:::exercise 5. Ordena las frases
+gusta / me / el pan → ______________________
+gustan / te / las uvas → ______________________
+no / le / gusta / la sopa → ______________________
+nos / las verduras / gustan → ______________________
+¿ / gusta / te / el café / ? → ______________________
+les / no / gustan / los tomates → ______________________
+:::
+
+:::exercise 6. Escribe frases con gustar
+*Ejemplo:* yo / la música → Me gusta la música.
+yo / el té → ______________________
+tú / las frutas → ______________________
+ella / el pescado → ______________________
+nosotros / cocinar → ______________________
+ustedes / las verduras → ______________________
+ellos / los perros → ______________________
+:::
+
+:::exercise 7. Responde sobre ti
+img: 639-47
+:::q
+¿Te gusta el café?
+¿Te gustan las frutas?
+¿Te gusta cocinar?
+¿Te gustan las verduras?
+¿Qué comida te gusta mucho?
+¿Qué comida no te gusta?
+:::
+:::
+
+img: 639-48
+
+## E | Cultura
+### Los gustos de los hispanohablantes
+*Lee el texto y contesta las preguntas.*
+img: 639-19
+En el mundo hispanohablante hay muchos países y muchas formas de vivir. Cada país tiene sus costumbres, su comida, su música y sus actividades favoritas.
+
+A los **españoles** les gusta mucho salir. En España, muchas personas salen a caminar, van a bares, comen tapas con amigos o se sientan en una terraza para tomar algo. También les gusta pasar tiempo con la familia y disfrutar de las fiestas locales.
+
+A los **argentinos** les gusta reunirse con amigos y familia. Les gusta tomar mate, comer asado y conversar durante mucho tiempo. También les gusta mucho el fútbol, la música y salir a caminar por la ciudad. En muchas ciudades, la vida social es muy importante.
+
+A los **mexicanos** les gusta celebrar. En México hay muchas fiestas, colores, música y comidas tradicionales. A muchas personas les gusta comer tacos, escuchar música, bailar y reunirse con la familia. También les gusta mucho visitar mercados y plazas.
+
+img: 2301-53
+A los **colombianos** les gusta la música y el baile. En Colombia, muchas personas disfrutan de la salsa, el vallenato y otros ritmos. También les gusta salir con amigos, tomar café y conversar. La familia y la alegría son muy importantes en la vida diaria.
+
+A los **peruanos** les gusta mucho la comida. Perú es famoso por su gastronomía. A muchas personas les gusta comer ceviche, pollo a la brasa y otros platos típicos. También les gusta reunirse con la familia, visitar mercados y disfrutar de la música tradicional.
+
+Aunque cada país es diferente, en general a los hispanohablantes les gusta compartir momentos con otras personas. Les gusta conversar, comer juntos, salir, escuchar música y disfrutar de la vida social.
+
+img: 2301-56
+
+:::exercise Preguntas
+:::q
+¿Qué les gusta hacer a los españoles?
+¿Qué les gusta tomar a los argentinos?
+¿Qué les gusta celebrar a los mexicanos?
+¿Qué música les gusta a muchos colombianos?
+¿Qué te gusta hacer con tus amigos?
+¿Te gusta salir o prefieres quedarte en casa?
+¿Qué actividades son importantes en tu país?
+:::
+:::
+
+## F | Historieta
+img: 639-16 | | comic
+
+## N | Notas importantes
+*Gramática y vocabulario para comunicarte*
+
+:::cols
+:::col
+:::box 1. El verbo gustar
+• **Gusta** (singular): Me gusta leer.
+• **Gustan** (plural): Me gustan los perros.
+• Te gusta (a ti), le gusta (a él/ella), nos gusta (a nosotros/as), les gusta (a ellos/as).
+:::
+:::box 2. Vocabulario de alimentos
+• Frutas: manzana, plátano, mango.
+• Platos típicos: paella, tacos, arepas, empanadas.
+• Bebidas: agua, jugo, café, té.
+:::
+:::
+:::col
+:::box 3. Tener que + infinitivo
+• Obligación: Tengo que estudiar para el examen.
+• Tú tienes que, él/ella tiene que, nosotros/as tenemos que, ellos/as tienen que.
+:::
+:::box 4. Querer y poder + infinitivo
+• Deseo: Quiero comer una manzana.
+• Capacidad/permiso: Puedo hablar español.
+• Quieres, quiere, queremos, quieren / Puedes, puede, podemos, pueden.
+:::
+:::
+:::
+
+:::gallery
+img: 639-4
+img: 2948-2
+:::

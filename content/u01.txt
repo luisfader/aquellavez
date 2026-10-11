@@ -1,0 +1,448 @@
+## A | ¿Qué tal?
+ref: pronombres personales, ser y tener
+
+img: 628-203
+
+### En la plaza España
+img: 628-201
+
+:::dialog
+Luis: ¡Hola, Robert! ¿Cómo estás?
+Robert: ¡Luis! Qué sorpresa. Muy bien, ¿y tú?
+Luis: Bien, gracias. Mira, estoy con Natalia, ¿te acuerdas?
+Natalia: ¡Robert! ¡Cuánto tiempo!
+Robert: ¡Natalia! Claro que me acuerdo. ¿Cómo están?
+Natalia: Todo bien. Y ella es Julieta, una amiga.
+Julieta: Mucho gusto, Robert.
+Robert: Encantado, Julieta.
+Luis: Julieta es estudiante de Historia.
+Julieta: Sí, y tú, Robert, ¿a qué te dedicas?
+Robert: Soy ecologista. Cuido la naturaleza.
+Luis: ¡Qué interesante!
+Natalia: Y yo soy pintora, pero eso ya lo sabes.
+Robert: Claro, me acuerdo. Me alegro de verlos.
+Julieta: Igualmente.
+Natalia: Igualmente. Un placer.
+:::
+
+:::exercise Preguntas
+:::q
+¿Cómo se llaman los amigos?
+¿Quién es ecologista?
+¿Quién estudia Historia?
+¿Quién es artista?
+:::
+:::
+
+:::tip
+En español se usa el verbo **ser** para hablar de nacionalidad, profesión y otros adjetivos.
+:::
+
+img: 628-204
+
+### El abecedario
+:::alphabet
+ABCDEFGHIJKLMNÑOPQRSTUVWXYZ
+:::
+
+:::cols
+:::col
+**A** - a (como en casa)
+**B** - be (como en boca)
+**C** - ce (ante a, o, u = k; ante e, i = z/s)
+**D** - de (suave entre vocales)
+**E** - e (como en mesa)
+**F** - efe (como en faro)
+**G** - ge (ante a, o, u = g; ante e, i = j)
+**H** - hache (muda, no suena)
+**I** - i (como en vino)
+**J** - jota (sonido gutural fuerte)
+**K** - ka (solo extranjerismos: kilo)
+**L** - ele (como en luna)
+**M** - eme (como en mano)
+**N** - ene (como en noche)
+:::
+:::col
+**Ñ** - eñe (como en niño, año)
+**O** - o (como en sol)
+**P** - pe (sin aspiración)
+**Q** - cu (siempre con u muda: queso)
+**R** - erre (suave: cara / fuerte: rojo, perro)
+**S** - ese (siempre sorda: sapo)
+**T** - te (sin aspiración)
+**U** - u (como en luna)
+**V** - uve (se pronuncia igual que B)
+**W** - uve doble (como u o b)
+**X** - equis (ks como en examen)
+**Y** - ye (como yate o como i en rey)
+**Z** - zeta (en España como TH; en Hispanoamérica como S)
+:::
+:::
+
+### El español en el mundo
+El español es una lengua importante. Muchas personas hablan español. ¿Cuántas? Unos 500 millones de personas. Es la segunda lengua del mundo con más hablantes.
+
+:::cols
+:::col
+**¿Dónde se habla español?**
+El español es la lengua oficial en 21 países.
+También hay muchas personas que hablan español en Estados Unidos.
+
+**¿El español es igual en todos los países?**
+No, no es igual. Hay pequeñas diferencias. Por ejemplo:
+En España se dice "coche".
+En México se dice "carro".
+En Argentina se dice "auto".
+:::
+:::col
+**¿Por qué aprender español?**
+Aprender español es bueno por muchas razones:
+1. Puedes viajar a muchos países y hablar con la gente.
+2. Puedes escuchar música en español.
+3. Puedes ver películas y series en español.
+4. Puedes hacer amigos nuevos.
+:::
+:::
+
+img: 628-211
+
+## B | ¿A qué te dedicas?
+ref: ser y tener
+
+img: 633-8
+
+:::dialog
+Julieta: Entonces, ¿eres ecologista? ¿Cómo es eso?
+Robert: Sí, soy ecologista. Mi trabajo es inventar soluciones para cuidar el medio ambiente. Por ejemplo, reciclar plástico, ahorrar agua y usar energía solar. ¿Y a ti? ¿Te gusta estudiar historia?
+Julieta: Sí, me gusta mucho la historia, pero también trabajo. Soy niñera. Cuido niños.
+Robert: Claro. Me parece muy bien.
+Julieta: Oye, Robert… ¿tienes novia?
+Robert: Sí, tengo novia.
+Julieta: Ahh, claro… (con decepción). ¿A qué se dedica?
+Robert: Es violonchelista. Toca el violonchelo en una orquesta. Y tú, Julieta… ¿tienes novio?
+Julieta: No. ¡Estoy SOLTERA!
+Robert: Ah, bueno. Pues no pasa nada. Estar soltera también está bien.
+Julieta: Sí, claro… (suspira y sonríe un poco)
+:::
+
+:::exercise 1. Lee las frases y escribe V (verdadero) o F (falso).
+:::vf
+Robert es profesor de historia.
+El trabajo de Robert es inventar soluciones para cuidar el medio ambiente.
+A Julieta no le gusta estudiar historia.
+Julieta es niñera. Cuida niños.
+Robert no tiene novia.
+La novia de Robert es violonchelista.
+Julieta tiene novio.
+Julieta dice que está soltera.
+:::
+:::
+
+img: 633-12
+:::bubble
+Leo las estrellas. Adivino el futuro. Consulto la alineación de los planetas.
+**¿Cuál es mi profesión?** ________
+:::
+
+:::exercise 2. Relaciona las profesiones con las ilustraciones
+img: 633-2
+:::words
+Camarero / camarera
+Profesor / profesora
+Taxista
+Ingeniero / ingeniera
+Médico / médica
+Actor / actriz
+Cocinero / cocinera
+Estudiante
+Vendedor / vendedora
+Policía
+:::
+:::
+
+img: 633-16
+
+:::exercise 3. ¿Dónde trabajan? Une cada profesión con el lugar donde trabaja.
+:::cols
+:::col
+**Profesión**
+1. Médico ___
+2. Profesor ___
+3. Cocinero ___
+4. Policía ___
+5. Periodista ___
+:::
+:::col
+**Lugar de trabajo**
+Escuela
+Restaurante
+Hospital
+Comisaría
+Redacción / Periódico
+:::
+:::
+:::
+
+:::exercise 4. Elige la palabra correcta.
+Mi mamá trabaja en un hospital. Ella es ________. (médico / profesora)
+Mi papá trabaja en una escuela. Él es ________. (policía / profesor)
+Juan trabaja en un restaurante. Él es ________. (cocinero / periodista)
+Ana trabaja en una comisaría. Ella es ________. (médico / policía)
+Luis trabaja en un periódico. Él es ________. (periodista / cocinero)
+:::
+
+:::exercise 5. Pregunta y respuesta. Lee y responde con una frase completa.
+*Modelo:* ¿Dónde trabaja el médico? ➜ Un médico trabaja en un hospital.
+
+¿Dónde trabaja el profesor? ➜ ______________________________
+¿Dónde trabaja el policía? ➜ ______________________________
+¿Dónde trabaja el cocinero? ➜ ______________________________
+¿Dónde trabaja la periodista? ➜ ______________________________
+:::
+
+:::box Reglas básicas (nivel A1)
+Terminación **-o → -a** (médico → médica, cocinero → cocinera)
+Terminación **-or → -ora** (profesor → profesora)
+Terminación **-ista** → igual para masculino y femenino (periodista)
+**Policía** es especial: la palabra no cambia, pero el artículo sí: el policía / la policía
+:::
+
+### Ejemplo de uso en frases
+El médico trabaja en un hospital. / La médica trabaja en un hospital.
+El profesor enseña en la escuela. / La profesora enseña en la escuela.
+El cocinero prepara la comida. / La cocinera prepara la comida.
+El policía ayuda a las personas. / La policía ayuda a las personas.
+El periodista escribe noticias. / La periodista escribe noticias.
+
+img: 633-24
+img: 633-23
+
+## C | ¿Me das tu número?
+img: 633-31
+
+:::cols
+:::col
+**Números del 1 al 10**
+uno · dos · tres · cuatro · cinco · seis · siete · ocho · nueve · diez
+:::
+:::col
+**Números del 11 al 20**
+once · doce · trece · catorce · quince · dieciséis · diecisiete · dieciocho · diecinueve · veinte
+:::
+:::
+
+### Los números y sus significados
+img: 633-45
+:::bubble
+Hola, yo soy Alicia. Soy numeróloga y astróloga. Los números tienen significados especiales. Te explico:
+:::
+
+1 es una persona.
+2 es una pareja.
+3 es alegría.
+4 es orden.
+5 es aventura.
+6 es familia.
+7 es suerte.
+8 es dinero.
+9 es amistad.
+10 es un nuevo comienzo.
+
+Alicia sonríe y dice: —¡Los números están en todas partes!
+
+:::box Los números ordinales
+Los números ordinales indican el orden o la posición de una persona o una cosa.
+
+1.º primero / 1.ª primera · 2.º segundo / 2.ª segunda · 3.º tercero / 3.ª tercera · 4.º cuarto / 4.ª cuarta · 5.º quinto / 5.ª quinta · 6.º sexto / 6.ª sexta · 7.º séptimo / 7.ª séptima · 8.º octavo / 8.ª octava · 9.º noveno / 9.ª novena · 10.º décimo / 10.ª décima
+
+Los ordinales cambian según el género:
+— Luis vive en el segundo piso.
+— Natalia vive en la tercera planta.
+— Esta es mi primera clase de español.
+— Marcos llega en quinto lugar.
+
+**Atención:** delante de un sustantivo masculino singular, *primero* y *tercero* se convierten en *primer* y *tercer*: el primer día, el tercer piso.
+:::
+
+:::exercise Completa con los números correspondientes
+img: 633-39
+En una semana hay _______ días.
+Una persona tiene _______ nariz.
+En un año hay _______ meses.
+Un huevo tiene _______ minutos para cocerse.
+Una araña tiene _______ patas.
+El ser humano tiene _______ brazos.
+Los días del fin de semana son _______ (sábado y domingo).
+Un gato tiene _______ vidas (en la cultura popular).
+Un dado tiene _______ caras.
+:::
+
+### Lee los diálogos
+img: 633-47
+:::dialog
+Marcos: Hola, Julieta.
+Julieta: Hola, Marcos.
+Marcos: Soy detective. Tengo un caso muy importante.
+Julieta: ¿Un caso?
+Marcos: Sí. Un ladrón. Se llama Luis.
+Julieta: ¿Luis? Yo conozco a Luis.
+Marcos: Necesito ayuda. Responde mis preguntas, por favor.
+Julieta: De acuerdo.
+Marcos: ¿Cuántos años tiene Luis?
+Julieta: Treinta. (30)
+Marcos: ¿Cuántos hermanos tiene?
+Julieta: Tres. (3)
+Marcos: ¿Tiene novia?
+Julieta: Sí. Una novia. (1)
+Marcos: ¿Dónde vive?
+Julieta: En el apartamento número cinco. (5)
+Marcos: ¿A qué hora sale de casa?
+Julieta: A las ocho. (8)
+Marcos: ¿Cuántas llaves tiene?
+Julieta: Cuatro. (4)
+Marcos: ¿Cuántos teléfonos tiene?
+Julieta: Dos. (2)
+Marcos: Gracias, Julieta.
+Julieta: ¿Y Luis es malo?
+Marcos: No sé. Quizás sí.
+Julieta: ¿Dónde está Luis?
+Marcos: No lo sé.
+Julieta: Ah, bueno...
+Marcos: Adiós, Julieta.
+Julieta: Adiós, Marcos. Suerte.
+:::
+
+### Julieta llama a Luis
+img: 633-49
+:::dialog
+Julieta: ¿Luis?
+Luis: Sí, soy Luis.
+Julieta: Hola, soy Julieta.
+Luis: Hola, Julieta. ¿Qué pasa?
+Julieta: Tengo una noticia.
+Luis: ¿Qué noticia?
+Julieta: Un detective te busca.
+Luis: ¿Un detective?
+Julieta: Sí. Se llama Marcos.
+Luis: ¿Y qué quiere?
+Julieta: No sé. Pero te busca.
+Luis: Ah, vale.
+Julieta: ¿Sabes por qué?
+Luis: Sí, es una tontería.
+Julieta: ¿Una tontería?
+Luis: Sí. No te preocupes.
+Julieta: ¿Estás seguro?
+Luis: Sí, tranquila.
+Julieta: Vale. Entonces no digo nada.
+Luis: Gracias, Julieta.
+Julieta: De nada. Cuídate.
+Luis: Tú también. Adiós.
+Julieta: Adiós.
+:::
+
+ref: pronombres personales, ser y tener
+
+:::exercise 3. Lee los diálogos otra vez. Escribe V (verdadero) o F (falso)
+:::vf
+Luis tiene treinta años.
+Luis tiene dos hermanos.
+Luis tiene una novia.
+Luis vive en el apartamento número cinco.
+Luis sale de casa a las nueve.
+Luis tiene cuatro llaves.
+Marcos es detective.
+Julieta llama a Luis.
+Marcos se llama Luis.
+Luis sabe por qué Marcos lo busca.
+:::
+:::
+
+## D | Gramática
+:::box 1. Pronombres personales (sujeto)
+Los pronombres personales sustituyen a la persona o cosa que hace la acción.
+:::table
+Persona | Pronombre
+1.ª singular | yo
+2.ª singular | tú
+3.ª singular | él / ella / usted (Ud.)
+1.ª plural | nosotros / nosotras
+2.ª plural | vosotros / vosotras (España)
+3.ª plural | ellos / ellas / ustedes (Uds.)
+:::
+En Hispanoamérica, "ustedes" se usa para plural (tú + él/ella). "Nosotras", "vosotras", "ellas" son femeninos.
+
+**Ejemplos:** Yo soy Ana. · Tú tienes un libro. · Él es médico. · Nosotros somos amigos. · Ellas tienen dos perros.
+:::
+
+:::cols
+:::col
+:::box 2. Verbo SER
+Indica identidad, nacionalidad, profesión, cualidades (cosas permanentes).
+:::table
+Pronombre | SER
+yo | soy
+tú | eres
+él / ella / usted | es
+nosotros | somos
+vosotros | sois
+ellos / ellas / ustedes | son
+:::
+**Ejemplos:** Yo soy estudiante. · Tú eres español. · Ella es inteligente. · Nosotros somos altos. · Ellos son de México.
+:::
+:::
+:::col
+:::box 3. Verbo TENER
+Indica posesión (tener = poseer) y también edad (tener años). A veces se usa para estados físicos (tener hambre, tener frío).
+:::table
+Pronombre | TENER
+yo | tengo
+tú | tienes
+él / ella / usted | tiene
+nosotros | tenemos
+vosotros | tenéis
+ellos / ellas / ustedes | tienen
+:::
+:::
+:::
+:::
+
+img: 633-63
+
+## E | Cultura
+### Símbolos de la cultura hispanohablante
+img: 633-69
+
+**1. La bandera de España**
+La bandera es roja y amarilla. Tiene un escudo en el centro. España tiene 17 comunidades autónomas. La paella y el flamenco son muy famosos.
+
+**2. La bandera de México**
+México tiene una bandera verde, blanca y roja. En el centro hay un águila. El águila come una serpiente. El tequila y el chile son símbolos de México.
+
+img: 633-71
+**3. El mate (Argentina y Uruguay)**
+El mate es una bebida. Se toma con una bombilla y una calabaza. Los amigos comparten el mate. Es un símbolo de amistad.
+
+img: 633-70
+**4. La llama (Perú, Bolivia, Ecuador)**
+La llama es un animal de los Andes. Tiene lana suave. Es un símbolo de la cultura andina.
+
+:::tip
+**¿Un dato curioso?** La palabra "taco" (México) es comida. Pero "taco" (España) es un trozo de madera. El español tiene muchos símbolos diferentes.
+:::
+
+:::exercise Preguntas
+¿Cuál es tu símbolo favorito?
+Yo prefiero la paella. ¿Y tú? ______________________________
+:::
+
+:::exercise 1. Verdadero (V) o falso (F)
+:::vf
+La bandera de España es roja y amarilla.
+La bandera de México tiene un águila.
+El mate es una bebida de Argentina.
+La llama vive en los Andes.
+:::
+:::
+
+## F | Historieta
+img: 633-84 | | comic
