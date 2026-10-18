@@ -49,3 +49,8 @@ preguntas, vuelve a generar los audios:
 1. `pip install sherpa-onnx numpy` (también hacen falta `ffmpeg` y `node`).
 2. `python3 tools/audio.py` — graba solo los textos nuevos y borra los que ya no se usan.
 3. `python3 build.py` y sube los cambios.
+
+Las grabaciones hechas a mano reemplazan a las sintéticas con el mismo nombre de archivo;
+`tools/audio.py` nunca sobrescribe un audio que ya existe. En `tools/audio-numeros.json`
+está cada texto con su número (001–190), el archivo que le corresponde, qué voz conviene
+(mujer, hombre o cualquiera) y si ya está grabado o todavía es la voz sintética.

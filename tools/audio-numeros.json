@@ -1,0 +1,1142 @@
+{
+ "001": {
+  "texto": "Robert es ecologista. Cuida la naturaleza.",
+  "archivo": "c5332438195c.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "002": {
+  "texto": "Luis tiene treinta años.",
+  "archivo": "54a563782c50.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "003": {
+  "texto": "Luis vive en el tercer piso. (3.º)",
+  "archivo": "c7f48da1cd39.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "004": {
+  "texto": "¿Dónde está mi gata?",
+  "archivo": "cd924a7aedcb.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "005": {
+  "texto": "Tengo dos abuelos. Mis abuelos viven en San Petersburgo.",
+  "archivo": "ce18c2c658e7.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "006": {
+  "texto": "Mi familia vive en Rusia, pero yo vivo en Buenos Aires.",
+  "archivo": "66fce5589155.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "007": {
+  "texto": "¿Qué hora es? (13:30) → Es la una y media.",
+  "archivo": "175a7d16c88c.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "008": {
+  "texto": "Por las mañanas, yo me levanto a las siete.",
+  "archivo": "f26bb688af8d.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "009": {
+  "texto": "Natalia sale del trabajo a las cinco.",
+  "archivo": "f9f84adc10e5.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "010": {
+  "texto": "Esta noche nosotros vamos al cine.",
+  "archivo": "651fb84a058f.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "011": {
+  "texto": "Disculpe, señora, ¿cómo se llama usted?",
+  "archivo": "1b798f30be88.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "012": {
+  "texto": "En Sinea hay una estación central.",
+  "archivo": "e65a8624d324.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "013": {
+  "texto": "El monumento a Luis Fader está en la plaza central.",
+  "archivo": "3e8b345ffc89.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "014": {
+  "texto": "Este billete del Banco de Sinea es de doscientos rublos. (200)",
+  "archivo": "276c9291ab00.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "015": {
+  "texto": "A mí me gustan las estrellas.",
+  "archivo": "54af1bddb331.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "016": {
+  "texto": "A Marcos le gustan los mapas antiguos.",
+  "archivo": "b6d292fc5024.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "017": {
+  "texto": "Alicia tiene que comprar frutas.",
+  "archivo": "efbbcae32d44.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "018": {
+  "texto": "Nátasha está tocando el gusli.",
+  "archivo": "92e856f37f75.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "019": {
+  "texto": "Luis está leyendo una novela de Robert Fader.",
+  "archivo": "77b59ce32a87.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "020": {
+  "texto": "¡La comida se está quemando en la cocina!",
+  "archivo": "cc3d7bc9e29d.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "021": {
+  "texto": "Nátasha tiene el pelo largo y oscuro.",
+  "archivo": "2cc778fc309e.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "022": {
+  "texto": "Ayer después de clase fui a la escuela de danza.",
+  "archivo": "f1b71638f37a.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "023": {
+  "texto": "Ayer Marcos tuvo un día complicado.",
+  "archivo": "f24bba76c558.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "024": {
+  "texto": "Hoy hace mucho frío en la montaña.",
+  "archivo": "0d219c748974.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "025": {
+  "texto": "Cuando era niño, siempre jugaba con mi gata.",
+  "archivo": "6a5dfb6d3a40.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "026": {
+  "texto": "A Luis le duelen las piernas.",
+  "archivo": "d866a4d35c58.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "027": {
+  "texto": "Mañana voy a revisar la fortaleza.",
+  "archivo": "37d99ca2345b.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "028": {
+  "texto": "¡Estatua, camina despacio y regresa al parque!",
+  "archivo": "6166c6c0f1a5.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "029": {
+  "texto": "Señor Petrovich, lea el informe, por favor.",
+  "archivo": "b727ef79265c.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "030": {
+  "texto": "Presentimiento es más dramática que El misterio de los Fader.",
+  "archivo": "7b8f6ece9eaf.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "031": {
+  "texto": "Busqué en la biblioteca, pero no encontré nada útil.",
+  "archivo": "519861d2f20e.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "032": {
+  "texto": "Yo caminaba por el parque cuando vi a Zmaj.",
+  "archivo": "944ad654d352.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "033": {
+  "texto": "Robert, hoy estás muy cansado. Toma un café.",
+  "archivo": "027eed9e4e94.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "034": {
+  "texto": "Yo estaba durmiendo cuando sonó el despertador.",
+  "archivo": "c3d8a74c9fda.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "035": {
+  "texto": "Isabel la Católica nació en 1451.",
+  "archivo": "28a5d18e24c1.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "036": {
+  "texto": "La madre de mi madre es mi abuela.",
+  "archivo": "15b1baed5b79.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "037": {
+  "texto": "La cocinera trabaja en un restaurante.",
+  "archivo": "16a80dd71672.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "038": {
+  "texto": "Los usamos para ver: los ojos.",
+  "archivo": "30be94041056.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "039": {
+  "texto": "Sirve para dormir: la cama.",
+  "archivo": "5857c77f2ca5.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "040": {
+  "texto": "El aire se mueve mucho y las hojas vuelan. Hace viento.",
+  "archivo": "a73cefdeadb4.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "041": {
+  "texto": "Las hojas cambian de color y caen al suelo. Es el otoño.",
+  "archivo": "c7bbe12a8730.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "042": {
+  "texto": "No tengo novio. ¡Estoy soltera!",
+  "archivo": "ddb26b817919.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "043": {
+  "texto": "La arepa es redonda y se hace con maíz.",
+  "archivo": "816c803eb5f1.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "044": {
+  "texto": "Después del sábado viene el domingo.",
+  "archivo": "c677c964d4ea.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "045": {
+  "texto": "La puerta no está abierta. Está cerrada.",
+  "archivo": "dc98bf28b223.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "046": {
+  "texto": "la taza de té",
+  "archivo": "63f2cb197118.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "047": {
+  "texto": "el balón de fútbol",
+  "archivo": "400b18d02f51.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "048": {
+  "texto": "Me llamo Alicia y soy astróloga.",
+  "archivo": "a14ace69935d.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "049": {
+  "texto": "Tengo una hermana.",
+  "archivo": "e3ea1cc1e056.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "050": {
+  "texto": "¿Dónde está la estación?",
+  "archivo": "4b2491e3820a.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "051": {
+  "texto": "Me gusta el café.",
+  "archivo": "471be4ed18e1.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "052": {
+  "texto": "Ayer fui al cine con mis amigos.",
+  "archivo": "f13494debad0.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "053": {
+  "texto": "Me duele la cabeza.",
+  "archivo": "607b2edf1cb3.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "054": {
+  "texto": "Mañana voy a estudiar español.",
+  "archivo": "84fa9914e89e.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "055": {
+  "texto": "Cuando era niño, vivía con mis abuelos.",
+  "archivo": "40611d3cc072.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "056": {
+  "texto": "Luis es más alto que Marcos.",
+  "archivo": "d87e04768033.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "057": {
+  "texto": "No hay nadie en casa.",
+  "archivo": "6f01cc9a8fc9.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "058": {
+  "texto": "Hace frío en invierno.",
+  "archivo": "d9a933f69c29.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "059": {
+  "texto": "¿A qué te dedicas?",
+  "archivo": "cc940396ed15.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "060": {
+  "texto": "¿De dónde eres?",
+  "archivo": "449b0a0e511f.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "061": {
+  "texto": "¿Cuántos años tienes?",
+  "archivo": "ca8c6a998137.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "062": {
+  "texto": "Tengo que trabajar mañana.",
+  "archivo": "20d85768b01e.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "063": {
+  "texto": "Quiero trabajar mañana.",
+  "archivo": "123cd63010cd.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "064": {
+  "texto": "Me encantan las flores.",
+  "archivo": "eeede91c9ca7.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "065": {
+  "texto": "No me gustan las flores.",
+  "archivo": "bce164ef00cf.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "066": {
+  "texto": "¿Qué hiciste ayer?",
+  "archivo": "ed39be14f157.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "067": {
+  "texto": "¿Qué haces hoy?",
+  "archivo": "d9089fceb48a.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "068": {
+  "texto": "¿Qué vas a hacer mañana?",
+  "archivo": "f342659c5ae1.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "069": {
+  "texto": "La puerta está abierta.",
+  "archivo": "58b0f83b2c0f.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "070": {
+  "texto": "La puerta está cerrada.",
+  "archivo": "e0e92ef00e86.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "071": {
+  "texto": "La ventana está abierta.",
+  "archivo": "5d75a5163069.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "072": {
+  "texto": "Habla más despacio, por favor.",
+  "archivo": "db7173b313cf.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "073": {
+  "texto": "Habla más alto, por favor.",
+  "archivo": "74b769355c7f.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "074": {
+  "texto": "Camina más despacio, por favor.",
+  "archivo": "e642155c4294.mp3",
+  "voz": "hombre",
+  "origen": "Daniela (sintética)"
+ },
+ "075": {
+  "texto": "Mi casa es tu casa.",
+  "archivo": "5c7093538590.mp3",
+  "voz": "hombre",
+  "origen": "grabación"
+ },
+ "076": {
+  "texto": "Mi casa es muy grande.",
+  "archivo": "5053728d87ca.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "077": {
+  "texto": "Esta no es mi casa.",
+  "archivo": "37768d1bcc0f.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "078": {
+  "texto": "la llama",
+  "archivo": "2eaa0a1acaa2.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "079": {
+  "texto": "la pluma",
+  "archivo": "42748a7575c2.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "080": {
+  "texto": "la guitarra",
+  "archivo": "414c0c07b315.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "081": {
+  "texto": "el autobús",
+  "archivo": "1c8c182a8cb3.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "082": {
+  "texto": "los barcos",
+  "archivo": "c1d19ae35afd.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "083": {
+  "texto": "la paella",
+  "archivo": "31c5c46e2aa6.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "084": {
+  "texto": "la rosa",
+  "archivo": "397267494ea5.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "085": {
+  "texto": "la madre",
+  "archivo": "a0db3082a78c.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "086": {
+  "texto": "el padre",
+  "archivo": "718435f1c47f.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "087": {
+  "texto": "el hermano",
+  "archivo": "3fd29a6daf72.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "088": {
+  "texto": "la abuela",
+  "archivo": "8c4715c9a1bc.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "089": {
+  "texto": "el hijo",
+  "archivo": "6540f2953b1b.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "090": {
+  "texto": "la cabeza",
+  "archivo": "ea93219240db.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "091": {
+  "texto": "los ojos",
+  "archivo": "48039177d9bf.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "092": {
+  "texto": "la boca",
+  "archivo": "932d098e0e10.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "093": {
+  "texto": "la pierna",
+  "archivo": "d75fa4fdc382.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "094": {
+  "texto": "el cuello",
+  "archivo": "17866a861808.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "095": {
+  "texto": "el invierno",
+  "archivo": "0917f817b969.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "096": {
+  "texto": "el verano",
+  "archivo": "0c5aef1466e3.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "097": {
+  "texto": "la lluvia",
+  "archivo": "d5757493ff69.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "098": {
+  "texto": "la nieve",
+  "archivo": "cb1c5d9155bf.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "099": {
+  "texto": "el viento",
+  "archivo": "35a6632fc0ca.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "100": {
+  "texto": "el pan",
+  "archivo": "fece107f15ac.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "101": {
+  "texto": "la leche",
+  "archivo": "0af6e3fde0a5.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "102": {
+  "texto": "la manzana",
+  "archivo": "422210b0f8d7.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "103": {
+  "texto": "el pescado",
+  "archivo": "d41c76cec80e.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "104": {
+  "texto": "el queso",
+  "archivo": "7ca684b5d476.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "105": {
+  "texto": "la cama",
+  "archivo": "544a83383cca.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "106": {
+  "texto": "la mesa",
+  "archivo": "2693bfb600fe.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "107": {
+  "texto": "la silla",
+  "archivo": "704611752a46.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "108": {
+  "texto": "el espejo",
+  "archivo": "f6de772095ea.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "109": {
+  "texto": "la ventana",
+  "archivo": "846b161379e5.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "110": {
+  "texto": "Me",
+  "archivo": "94563ec383e2.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "111": {
+  "texto": "llamo",
+  "archivo": "dd125b49db7a.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "112": {
+  "texto": "Alicia",
+  "archivo": "76f9a187fef8.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "113": {
+  "texto": "y",
+  "archivo": "95cb0bfd2977.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "114": {
+  "texto": "soy",
+  "archivo": "55e30b376939.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "115": {
+  "texto": "astróloga",
+  "archivo": "42c66e7698bb.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "116": {
+  "texto": "llamas",
+  "archivo": "f2e2d844b3e0.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "117": {
+  "texto": "es",
+  "archivo": "09cd68a2a77b.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "118": {
+  "texto": "astrólogo",
+  "archivo": "39f6cdf08cb8.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "119": {
+  "texto": "Tengo",
+  "archivo": "d8c2cd0bd5aa.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "120": {
+  "texto": "una",
+  "archivo": "226f39186799.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "121": {
+  "texto": "hermana",
+  "archivo": "3bb240ea3a92.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "122": {
+  "texto": "Tiene",
+  "archivo": "8779b017fdfd.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "123": {
+  "texto": "un",
+  "archivo": "dd3bc42b2cbb.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "124": {
+  "texto": "hermano",
+  "archivo": "9587a8303a7d.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "125": {
+  "texto": "Dónde",
+  "archivo": "7c72f46cf66d.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "126": {
+  "texto": "está",
+  "archivo": "2d10807a093b.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "127": {
+  "texto": "la",
+  "archivo": "3efd4c0fe185.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "128": {
+  "texto": "estación",
+  "archivo": "1ccac4ca60c7.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "129": {
+  "texto": "hay",
+  "archivo": "ebddd6b268d9.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "130": {
+  "texto": "el",
+  "archivo": "4f1ea4f09db2.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "131": {
+  "texto": "gusta",
+  "archivo": "f1d19676f94e.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "132": {
+  "texto": "café",
+  "archivo": "f424452a9673.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "133": {
+  "texto": "gustan",
+  "archivo": "bc77b337a4de.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "134": {
+  "texto": "Te",
+  "archivo": "1b1be06f5bfb.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "135": {
+  "texto": "Ayer",
+  "archivo": "d5b8a735a7d8.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "136": {
+  "texto": "fui",
+  "archivo": "da8050c1ff0d.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "137": {
+  "texto": "al",
+  "archivo": "2f9ee2b33668.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "138": {
+  "texto": "cine",
+  "archivo": "2ffb113581e4.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "139": {
+  "texto": "con",
+  "archivo": "b1f6e510eb0f.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "140": {
+  "texto": "mis",
+  "archivo": "520104c03ea9.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "141": {
+  "texto": "amigos",
+  "archivo": "49ce789146a3.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "142": {
+  "texto": "iba",
+  "archivo": "faff30a7b98c.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "143": {
+  "texto": "del",
+  "archivo": "fea453f853c8.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "144": {
+  "texto": "mi",
+  "archivo": "9c51ad8660ea.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "145": {
+  "texto": "duele",
+  "archivo": "484781cbfeb0.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "146": {
+  "texto": "cabeza",
+  "archivo": "ba03ef3ed310.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "147": {
+  "texto": "duelen",
+  "archivo": "5cedfb65c1bd.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "148": {
+  "texto": "Mañana",
+  "archivo": "153d4410177e.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "149": {
+  "texto": "voy",
+  "archivo": "4215b0c922d6.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "150": {
+  "texto": "a",
+  "archivo": "86f7e437faa5.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "151": {
+  "texto": "estudiar",
+  "archivo": "1d4d6c819a82.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "152": {
+  "texto": "español",
+  "archivo": "d2a8463fbad3.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "153": {
+  "texto": "va",
+  "archivo": "665a4dc918dd.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "154": {
+  "texto": "estudio",
+  "archivo": "c08f843756a7.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "155": {
+  "texto": "de",
+  "archivo": "600ccd1b7156.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "156": {
+  "texto": "Cuando",
+  "archivo": "8cfaa940ea80.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "157": {
+  "texto": "era",
+  "archivo": "281f09155c96.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "158": {
+  "texto": "niño",
+  "archivo": "36a2baf40df6.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "159": {
+  "texto": "vivía",
+  "archivo": "228c83cdefc4.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "160": {
+  "texto": "abuelos",
+  "archivo": "f4e3fafca6eb.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "161": {
+  "texto": "viví",
+  "archivo": "41f0c111cafe.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "162": {
+  "texto": "sus",
+  "archivo": "f564c4b8475f.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "163": {
+  "texto": "Nátasha",
+  "archivo": "2d4acb72cde2.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "164": {
+  "texto": "tocando",
+  "archivo": "cfad5551f076.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "165": {
+  "texto": "gusli",
+  "archivo": "ad58e7de47e8.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "166": {
+  "texto": "toca",
+  "archivo": "3be2d1ddf9e6.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "167": {
+  "texto": "tocado",
+  "archivo": "74154e39302e.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "168": {
+  "texto": "Luis",
+  "archivo": "54ba42922810.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "169": {
+  "texto": "más",
+  "archivo": "917ac7093911.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "170": {
+  "texto": "alto",
+  "archivo": "ee24bfdc2306.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "171": {
+  "texto": "que",
+  "archivo": "57b5ca459ef8.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "172": {
+  "texto": "Marcos",
+  "archivo": "e59bcef41cd5.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "173": {
+  "texto": "como",
+  "archivo": "ef70a17048f2.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "174": {
+  "texto": "tan",
+  "archivo": "35ca8cf12ff7.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "175": {
+  "texto": "No",
+  "archivo": "816c52fd2bdd.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "176": {
+  "texto": "nadie",
+  "archivo": "99c0d3f2ad02.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "177": {
+  "texto": "en",
+  "archivo": "094b0fe0e302.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "178": {
+  "texto": "casa",
+  "archivo": "81bce1f3bf34.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "179": {
+  "texto": "nada",
+  "archivo": "a3fcfe3a3beb.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "180": {
+  "texto": "algo",
+  "archivo": "aaec0969b8f7.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "181": {
+  "texto": "Hace",
+  "archivo": "60cadb8212c7.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "182": {
+  "texto": "frío",
+  "archivo": "3672f947601a.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "183": {
+  "texto": "invierno",
+  "archivo": "d355446b069e.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "184": {
+  "texto": "Está",
+  "archivo": "7458578caf5d.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "185": {
+  "texto": "verano",
+  "archivo": "952fa74954b9.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "186": {
+  "texto": "Estoy soltera.",
+  "archivo": "0da7f2a81384.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "187": {
+  "texto": "Estoy cansada.",
+  "archivo": "95aa8682282c.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "188": {
+  "texto": "Estoy casada.",
+  "archivo": "515bda9e63f7.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "189": {
+  "texto": "Trabajé ayer.",
+  "archivo": "d724ce577e66.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ },
+ "190": {
+  "texto": "Vendo flores.",
+  "archivo": "2fc22e11a90e.mp3",
+  "voz": "cualquiera",
+  "origen": "grabación"
+ }
+}
