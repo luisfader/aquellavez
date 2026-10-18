@@ -39,3 +39,13 @@ Las preguntas están en `assets/test-data.js`. Cada intento elige al azar 25 pre
 (10 de gramática, 7 de vocabulario y 8 de traducción; se cambia en `draw`).
 Se aprueba con más del 70 % (`pass`). En la cabecera del archivo se explica el formato
 de cada tipo de pregunta. Después de editar, ejecuta `python3 build.py`.
+
+## Audio del test
+
+Las frases y palabras en español del test suenan con grabaciones de voz neuronal
+(voz «Daniela», español de Argentina) guardadas en `audio/`. Si cambias o agregas
+preguntas, vuelve a generar los audios:
+
+1. `pip install sherpa-onnx numpy` (también hacen falta `ffmpeg` y `node`).
+2. `python3 tools/audio.py` — graba solo los textos nuevos y borra los que ya no se usan.
+3. `python3 build.py` y sube los cambios.

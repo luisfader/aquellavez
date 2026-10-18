@@ -572,6 +572,7 @@ def test_page():
     page += FOOT_TPL.format(scripts=(
         f'<script>window.AV_IMG_SIZES={sizes_js};</script>\n'
         '<script src="assets/test-data.js"></script>\n'
+        '<script src="assets/audio-map.js"></script>\n'
         '<script src="assets/test.js"></script>\n'
     ))
     return page

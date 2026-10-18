@@ -47,23 +47,23 @@
   function words(s) { return String(s).replace(/[¿?¡!.,;:"«»]/g, " ").replace(/\s—\s/g, " ").split(/\s+/).filter(Boolean); }
 
   // ---------------------------------------------------------------- voz y sonido
-  var canSpeak = "speechSynthesis" in window;
-  function speak(text, lang) {
-    if (!canSpeak) return;
-    try {
-      speechSynthesis.cancel();
-      var u = new SpeechSynthesisUtterance(text.replace(/___/g, "…"));
-      u.lang = lang || "es-ES"; u.rate = .92;
-      var v = speechSynthesis.getVoices().filter(function (x) { return x.lang && x.lang.replace("_", "-").indexOf(u.lang.slice(0, 2)) === 0; });
-      if (v.length) u.voice = v.filter(function (x) { return x.lang.replace("_", "-") === u.lang; })[0] || v[0];
-      speechSynthesis.speak(u);
-    } catch (e) {}
+  // Las frases en español suenan con grabaciones de audio/ (voz neuronal, ver tools/audio.py).
+  var AUDIO = window.AV_AUDIO || {};
+  var player = null;
+  function clip(text) { return text ? AUDIO[String(text).replace(/\s+/g, " ").trim()] : null; }
+  function stopAudio() { if (player) { try { player.pause(); } catch (e) {} } }
+  // auto = suena solo al tocar una ficha o una palabra; se calla con el botón de silencio
+  function speak(text, auto) {
+    var f = clip(text);
+    if (!f || (auto && state.mute)) return;
+    stopAudio();
+    try { player = new Audio("audio/" + f); var p = player.play(); if (p && p.catch) p.catch(function () {}); } catch (e) {}
   }
-  function speakBtn(text, lang) {
-    if (!canSpeak) return null;
+  function speakBtn(text) {
+    if (!clip(text)) return null;
     var b = el("button", { type: "button", class: "speak", "aria-label": "Escuchar", title: "Escuchar",
       html: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16 8.5a5 5 0 0 1 0 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>' });
-    b.addEventListener("click", function (e) { e.stopPropagation(); speak(text, lang); });
+    b.addEventListener("click", function (e) { e.stopPropagation(); speak(text); });
     return b;
   }
   var actx = null;
@@ -269,7 +269,7 @@
       shuffle(q.items.map(function (_, i) { return i; })).forEach(function (i) { right.appendChild(make(q.items[i][1][L], "r", i, L)); });
       function clear(b) { if (b) b.setAttribute("aria-pressed", "false"); }
       function tap(b) {
-        if (b.dataset.side === "l") { clear(selL); selL = selL === b ? null : b; if (selL) { selL.setAttribute("aria-pressed", "true"); speak(b.textContent); } }
+        if (b.dataset.side === "l") { clear(selL); selL = selL === b ? null : b; if (selL) { selL.setAttribute("aria-pressed", "true"); speak(b.textContent, true); } }
         else { clear(selR); selR = selR === b ? null : b; if (selR) selR.setAttribute("aria-pressed", "true"); }
         if (selL && selR) {
           var a = selL, c = selR; selL = selR = null;
@@ -322,7 +322,7 @@
         c._from = t; t.classList.add("ghost"); t.setAttribute("aria-hidden", "true");
         c.addEventListener("click", function () { remove(c); });
         line.appendChild(c); chosen.push(c);
-        if (dst === "es") speak(t.textContent);
+        if (dst === "es") speak(t.textContent, true);
         setReady(chosen.length > 0);
       }
       function remove(c) {
@@ -352,7 +352,7 @@
       scene(q.img, "", bubble, wrap);
       var grid = el("div", { class: "opts-grid stack", role: "radiogroup", "aria-label": "Traducciones", lang: dst });
       var sel = null, btns = [];
-      function choose(k) { sel = k; btns.forEach(function (b, j) { b.setAttribute("aria-checked", j === k ? "true" : "false"); }); if (toEs) speak(opts[item.order[k]]); setReady(true); }
+      function choose(k) { sel = k; btns.forEach(function (b, j) { b.setAttribute("aria-checked", j === k ? "true" : "false"); }); if (toEs) speak(opts[item.order[k]], true); setReady(true); }
       item.order.forEach(function (oi, k) { var b = optionButton(opts[oi], k, choose); btns.push(b); grid.appendChild(b); });
       wrap.appendChild(grid);
       return {
@@ -391,7 +391,7 @@
     txt.appendChild(el("h3", { text: res.ok ? PRAISE[Math.floor(Math.random() * PRAISE.length)] : OOPS[Math.floor(Math.random() * OOPS.length)] }));
     if (!res.ok || res.showCorrect) {
       var p = el("p", {}, [el("span", { text: res.silent ? "" : "Respuesta correcta: " }), el("b", { text: res.correct, lang: res.lang || "es" })]);
-      if (res.speak && canSpeak && !res.silent) p.insertBefore(speakBtn(res.speak), p.firstChild);
+      var sb = res.silent ? null : speakBtn(res.speak); if (sb) p.insertBefore(sb, p.firstChild);
       txt.appendChild(p);
     }
     if (res.tip && (!res.ok || res.cat === "gramatica")) txt.appendChild(el("p", { class: "fb-tip", text: res.tip }));
@@ -464,7 +464,7 @@
 
   $(".qp-close").addEventListener("click", function () {
     if (state.results.length && !confirm("¿Salir del test? Se perderán tus respuestas de este intento.")) return;
-    if (canSpeak) speechSynthesis.cancel();
+    stopAudio();
     show("intro"); paintBest();
   });
 
@@ -577,7 +577,6 @@
     paintMute();
     muteBtn.addEventListener("click", function () { state.mute = !state.mute; var s = store.get(); s.mute = state.mute; store.set(s); paintMute(); });
   }
-  if (canSpeak) { speechSynthesis.getVoices(); }
   if (/[?&]debug\b/.test(location.search)) window.AV_STATE = state;
   paintBest();
   show("intro");
