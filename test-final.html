@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Test final · Aquella vez</title>
+<meta name="description" content="Test final del manual de español Aquella vez: gramática, vocabulario y traducción del inglés, el ruso y el serbio.">
+<link rel="icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/test.css">
+<meta property="og:title" content="Test final · Aquella vez">
+<meta property="og:description" content="Test final del manual de español Aquella vez: gramática, vocabulario y traducción del inglés, el ruso y el serbio.">
+<meta property="og:image" content="img/651-12.jpg">
+</head>
+<body class="quiz">
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="topbar">
+  <a class="brand" href="index.html"><span class="brand-mark">Aquella vez</span><span class="brand-sub">Manual de español</span></a>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Unidades</button>
+  <nav id="menu" class="menu" aria-label="Unidades">
+    <ol><li><a href="unidad-1.html"><b>1</b><span>Saludos, profesiones y números</span></a></li><li><a href="unidad-2.html"><b>2</b><span>La familia, la casa y la hora</span></a></li><li><a href="unidad-3.html"><b>3</b><span>La rutina diaria</span></a></li><li><a href="unidad-4.html"><b>4</b><span>La ciudad y la casa</span></a></li><li><a href="unidad-5.html"><b>5</b><span>Gustos y comida</span></a></li><li><a href="unidad-6.html"><b>6</b><span>Acciones en curso y descripciones</span></a></li><li><a href="unidad-7.html"><b>7</b><span>El pasado: ¿qué hiciste?</span></a></li><li><a href="unidad-8.html"><b>8</b><span>Recuerdos, salud y planes</span></a></li><li><a href="unidad-9.html"><b>9</b><span>Órdenes, comparaciones y misterios</span></a></li><li><a href="unidad-10.html"><b>10</b><span>Biografías, estados y despedida</span></a></li></ol>
+    <a class="menu-extra" href="entrevista.html">Entrevista con el autor</a>
+    <a class="menu-extra test" href="test-final.html">Test final</a>
+  </nav>
+</header>
+<main id="main" class="quiz-main">
+<section class="quiz-intro" id="intro" aria-labelledby="qi-t">
+  <div class="qi-text">
+    <h1 id="qi-t">Test final</h1>
+    <p class="qi-sub">Aquella vez, unidades 1 a 10</p>
+    <p class="lede">Elige la opción correcta, une palabras y traduce frases con los personajes del libro. Para aprobar necesitas más del 70&nbsp;% de respuestas correctas.</p>
+    <ul class="qi-mix">
+      <li><b>10</b> de gramática</li>
+      <li><b>7</b> de vocabulario</li>
+      <li><b>8</b> de traducción</li>
+    </ul>
+    <fieldset class="qi-lang">
+      <legend>Traducciones con</legend>
+      <div class="opts">
+        <label><input type="radio" name="lang" value="mix" checked><span>Los tres idiomas</span></label>
+        <label><input type="radio" name="lang" value="en"><span lang="en">English</span></label>
+        <label><input type="radio" name="lang" value="ru"><span lang="ru">Русский</span></label>
+        <label><input type="radio" name="lang" value="sr"><span lang="sr-Latn">Srpski</span></label>
+      </div>
+    </fieldset>
+    <div class="qi-go">
+      <button type="button" class="qbtn" id="start">Empezar el test</button>
+      <p class="qi-best" aria-live="polite"></p>
+    </div>
+  </div>
+  <div class="qi-art" aria-hidden="true">
+    <figure class="p1"><img src="img/639-715.jpg" width="832" height="1040" alt=""></figure>
+    <figure class="p2"><img src="img/651-12.jpg" width="990" height="1400" alt=""></figure>
+    <figure class="p3"><img src="img/639-68.jpg" width="885" height="742" alt=""><figcaption>Marcos</figcaption></figure>
+    <span class="qi-fox"><img src="img/644-9.jpg" width="1000" height="1000" alt=""></span>
+    <p class="qi-note">¿Listo para el último misterio?</p>
+  </div>
+</section>
+
+<section class="quiz-play" id="play" hidden aria-label="Preguntas">
+  <div class="qp-top">
+    <button type="button" class="qp-close" aria-label="Salir del test" title="Salir del test">×</button>
+    <div class="qp-progress" role="progressbar" aria-label="Progreso" aria-valuemin="0" aria-valuemax="25" aria-valuenow="0"><span></span></div>
+    <span class="qp-streak" hidden></span>
+    <span class="qp-count"></span>
+    <button type="button" class="qp-close qp-mute" aria-pressed="false" title="Silenciar sonidos"></button>
+  </div>
+  <div class="qp-stage" id="stage"></div>
+</section>
+
+<section class="quiz-result" id="result" hidden aria-label="Resultado"></section>
+</main>
+<div class="qp-bar" id="bar" hidden>
+  <div class="qp-bar-in">
+    <div class="qp-fb"><button type="button" class="qbtn quiet qp-skip">Saltar</button></div>
+    <button type="button" class="qbtn" id="check" disabled>Comprobar</button>
+  </div>
+</div>
+<noscript><p style="text-align:center;padding:2rem">El test necesita JavaScript activado en el navegador.</p></noscript>
+<footer class="foot">
+  <p class="foot-brand">Aquella vez</p>
+  <p>Manual de español para extranjeros · <strong>Luis Fader</strong> · 2026</p>
+  <p class="foot-small">Los textos, personajes e ilustraciones pertenecen al autor.</p>
+</footer>
+<div class="lightbox" hidden><button type="button" class="lb-close" aria-label="Cerrar">×</button><img alt=""></div>
+<script src="assets/site.js"></script>
+<script>window.AV_IMG_SIZES={"1220-12":[821,862],"1247-5":[1000,750],"1248-10":[1000,750],"1971-3":[1000,943],"2301-53":[383,428],"2301-56":[849,714],"2566-3":[1200,800],"2869-18":[900,1200],"633-109":[1000,667],"633-126":[709,574],"633-16":[534,800],"633-2":[1000,667],"633-39":[800,534],"633-47":[534,800],"633-49":[534,800],"633-70":[717,800],"633-8":[534,800],"633-95":[565,800],"633-96":[900,739],"634-221":[1000,667],"634-288":[680,680],"634-388":[1000,667],"634-415":[534,800],"634-419":[460,460],"634-442":[633,791],"634-507":[900,900],"634-537":[1200,676],"634-565":[1100,764],"634-566":[743,743],"634-601":[1200,801],"634-614":[698,872],"634-628":[721,900],"634-670":[959,720],"634-683":[638,900],"639-132":[505,534],"639-172":[1000,667],"639-19":[1000,750],"639-202":[1000,750],"639-206":[910,683],"639-209":[801,1000],"639-211":[577,577],"639-252":[1000,751],"639-332":[545,681],"639-341":[516,644],"639-342":[800,1000],"639-352":[998,748],"639-355":[951,951],"639-356":[474,474],"639-372":[783,587],"639-383":[892,669],"639-422":[1000,750],"639-436":[818,818],"639-448":[1232,723],"639-451":[1316,725],"639-452":[740,740],"639-461":[1300,834],"639-47":[457,457],"639-471":[721,900],"639-498":[801,1000],"639-570":[990,1001],"639-611":[1012,759],"639-645":[1000,751],"639-663":[990,1400],"639-674":[773,1100],"639-675":[1099,825],"639-68":[885,742],"639-696":[1127,845],"639-713":[798,476],"639-715":[832,1040],"639-736":[1120,1203],"639-761":[915,790],"639-97":[816,1100],"644-9":[1000,1000],"651-12":[990,1400],"686-3":[354,506]};</script>
+<script src="assets/test-data.js"></script>
+<script src="assets/test.js"></script>
+</body>
+</html>

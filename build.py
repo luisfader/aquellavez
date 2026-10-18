@@ -5,6 +5,7 @@ Uso:  python3 build.py
 Requiere Pillow (pip install pillow) para leer el tamaño de las ilustraciones.
 """
 import html
+import json
 import os
 import re
 
@@ -27,6 +28,15 @@ UNITS = [
 ]
 
 _size_cache = {}
+
+
+def _test_draw():
+    with open(os.path.join(ROOT, "assets", "test-data.js"), encoding="utf-8") as f:
+        m = re.search(r"draw:\s*\{([^}]*)\}", f.read())
+    return {k: int(v) for k, v in re.findall(r"(\w+):\s*(\d+)", m.group(1))}
+
+
+TEST_DRAW = _test_draw()
 
 
 def img_size(iid):
@@ -257,7 +267,7 @@ HEAD = """<!doctype html>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css">{extra_css}
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
 <meta property="og:image" content="img/651-12.jpg">
@@ -270,20 +280,24 @@ HEAD = """<!doctype html>
   <nav id="menu" class="menu" aria-label="Unidades">
     <ol>{menu}</ol>
     <a class="menu-extra" href="entrevista.html">Entrevista con el autor</a>
+    <a class="menu-extra test" href="test-final.html">Test final</a>
   </nav>
 </header>
 """
 
-FOOT = """<footer class="foot">
+FOOT_TPL = """<footer class="foot">
   <p class="foot-brand">Aquella vez</p>
   <p>Manual de español para extranjeros · <strong>Luis Fader</strong> · 2026</p>
   <p class="foot-small">Los textos, personajes e ilustraciones pertenecen al autor.</p>
 </footer>
 <div class="lightbox" hidden><button type="button" class="lb-close" aria-label="Cerrar">×</button><img alt=""></div>
 <script src="assets/site.js"></script>
-</body>
+{scripts}</body>
 </html>
 """
+
+
+FOOT = FOOT_TPL.format(scripts="")
 
 
 def menu(active=None):
@@ -294,8 +308,8 @@ def menu(active=None):
     return "".join(out)
 
 
-def head(title, desc, bodycls="", active=None):
-    return HEAD.format(title=html.escape(title), desc=html.escape(desc), bodycls=bodycls, menu=menu(active))
+def head(title, desc, bodycls="", active=None, extra_css=""):
+    return HEAD.format(title=html.escape(title), desc=html.escape(desc), bodycls=bodycls, menu=menu(active), extra_css=extra_css)
 
 
 def unit_page(n, cover, tema, sections):
@@ -318,7 +332,7 @@ def unit_page(n, cover, tema, sections):
             f'<div class="prose">{blocks(s["lines"], {"alt": s["title"]})}</div></section>'
         )
     prev_l = f'<a class="pn prev" href="unidad-{n-1}.html"><small>Anterior</small>Unidad {n-1}</a>' if n > 1 else '<a class="pn prev" href="index.html"><small>Volver</small>Portada</a>'
-    next_l = f'<a class="pn next" href="unidad-{n+1}.html"><small>Siguiente</small>Unidad {n+1}</a>' if n < 10 else '<a class="pn next" href="entrevista.html"><small>Para terminar</small>Entrevista con el autor</a>'
+    next_l = f'<a class="pn next" href="unidad-{n+1}.html"><small>Siguiente</small>Unidad {n+1}</a>' if n < 10 else '<a class="pn next" href="test-final.html"><small>Para terminar</small>Test final</a>'
     w, h = img_size(cover)
     page = head(f"Unidad {n} · Aquella vez", f"Unidad {n} del manual de español Aquella vez, de Luis Fader: {tema}.", "unit", n)
     page += f"""<main id="main">
@@ -396,6 +410,14 @@ def index_page(all_sections):
   <ol class="ucards">{''.join(cards)}</ol>
 </section>
 
+<section class="test-banner" aria-label="Test final">
+  <a href="test-final.html">
+    <img src="img/644-9.jpg" width="{img_size('644-9')[0]}" height="{img_size('644-9')[1]}" loading="lazy" alt="">
+    <span><b>Test final</b><span>Veinticinco preguntas de gramática, vocabulario y traducción sobre todo el manual. ¿Apruebas?</span></span>
+    <span class="qbtn">Hacer el test</span>
+  </a>
+</section>
+
 <section class="personajes" aria-labelledby="p-t">
   <div>
     <h2 id="p-t">Los personajes</h2>
@@ -469,6 +491,92 @@ def interview_page():
     return page
 
 
+def test_page():
+    """Página del test final. Las preguntas están en assets/test-data.js."""
+    with open(os.path.join(ROOT, "assets", "test-data.js"), encoding="utf-8") as f:
+        ids = set(re.findall(r'"(\d+-\d+)"', f.read()))
+    ids |= {"644-9", "639-663", "639-68", "651-12", "639-715", "639-209"}
+    sizes = {i: list(img_size(i)) for i in sorted(ids) if os.path.exists(os.path.join(IMG_DIR, i + ".jpg"))}
+    sizes_js = json.dumps(sizes, separators=(",", ":"))
+
+    def pic(iid, alt, extra=""):
+        w, h = img_size(iid)
+        return f'<img src="img/{iid}.jpg" width="{w}" height="{h}" alt="{html.escape(alt)}"{extra}>'
+
+    d = TEST_DRAW
+    n_gram = d["gramatica"]
+    n_lex = d["images"] + d["vocab"] + d["pairs"]
+    n_tr = d["tiles"] + d["choice"]
+    total = n_gram + n_lex + n_tr
+    page = head(
+        "Test final · Aquella vez",
+        "Test final del manual de español Aquella vez: gramática, vocabulario y traducción del inglés, el ruso y el serbio.",
+        "quiz",
+        extra_css='\n<link rel="stylesheet" href="assets/test.css">',
+    )
+    page += f"""<main id="main" class="quiz-main">
+<section class="quiz-intro" id="intro" aria-labelledby="qi-t">
+  <div class="qi-text">
+    <h1 id="qi-t">Test final</h1>
+    <p class="qi-sub">Aquella vez, unidades 1 a 10</p>
+    <p class="lede">Elige la opción correcta, une palabras y traduce frases con los personajes del libro. Para aprobar necesitas más del 70&nbsp;% de respuestas correctas.</p>
+    <ul class="qi-mix">
+      <li><b>{n_gram}</b> de gramática</li>
+      <li><b>{n_lex}</b> de vocabulario</li>
+      <li><b>{n_tr}</b> de traducción</li>
+    </ul>
+    <fieldset class="qi-lang">
+      <legend>Traducciones con</legend>
+      <div class="opts">
+        <label><input type="radio" name="lang" value="mix" checked><span>Los tres idiomas</span></label>
+        <label><input type="radio" name="lang" value="en"><span lang="en">English</span></label>
+        <label><input type="radio" name="lang" value="ru"><span lang="ru">Русский</span></label>
+        <label><input type="radio" name="lang" value="sr"><span lang="sr-Latn">Srpski</span></label>
+      </div>
+    </fieldset>
+    <div class="qi-go">
+      <button type="button" class="qbtn" id="start">Empezar el test</button>
+      <p class="qi-best" aria-live="polite"></p>
+    </div>
+  </div>
+  <div class="qi-art" aria-hidden="true">
+    <figure class="p1">{pic("639-715", "")}</figure>
+    <figure class="p2">{pic("651-12", "")}</figure>
+    <figure class="p3">{pic("639-68", "")}<figcaption>Marcos</figcaption></figure>
+    <span class="qi-fox">{pic("644-9", "")}</span>
+    <p class="qi-note">¿Listo para el último misterio?</p>
+  </div>
+</section>
+
+<section class="quiz-play" id="play" hidden aria-label="Preguntas">
+  <div class="qp-top">
+    <button type="button" class="qp-close" aria-label="Salir del test" title="Salir del test">×</button>
+    <div class="qp-progress" role="progressbar" aria-label="Progreso" aria-valuemin="0" aria-valuemax="{total}" aria-valuenow="0"><span></span></div>
+    <span class="qp-streak" hidden></span>
+    <span class="qp-count"></span>
+    <button type="button" class="qp-close qp-mute" aria-pressed="false" title="Silenciar sonidos"></button>
+  </div>
+  <div class="qp-stage" id="stage"></div>
+</section>
+
+<section class="quiz-result" id="result" hidden aria-label="Resultado"></section>
+</main>
+<div class="qp-bar" id="bar" hidden>
+  <div class="qp-bar-in">
+    <div class="qp-fb"><button type="button" class="qbtn quiet qp-skip">Saltar</button></div>
+    <button type="button" class="qbtn" id="check" disabled>Comprobar</button>
+  </div>
+</div>
+<noscript><p style="text-align:center;padding:2rem">El test necesita JavaScript activado en el navegador.</p></noscript>
+"""
+    page += FOOT_TPL.format(scripts=(
+        f'<script>window.AV_IMG_SIZES={sizes_js};</script>\n'
+        '<script src="assets/test-data.js"></script>\n'
+        '<script src="assets/test.js"></script>\n'
+    ))
+    return page
+
+
 def main():
     all_sections = []
     for n, cover, tema in UNITS:
@@ -480,7 +588,9 @@ def main():
         f.write(index_page(all_sections))
     with open(os.path.join(ROOT, "entrevista.html"), "w", encoding="utf-8") as f:
         f.write(interview_page())
-    print("Sitio generado:", len(UNITS), "unidades + portada + entrevista")
+    with open(os.path.join(ROOT, "test-final.html"), "w", encoding="utf-8") as f:
+        f.write(test_page())
+    print("Sitio generado:", len(UNITS), "unidades + portada + entrevista + test final")
 
 
 if __name__ == "__main__":

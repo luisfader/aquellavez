@@ -311,6 +311,28 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--paper-2) 55%,
 .foot-brand { font: 700 1.6rem var(--serif); color: var(--brown); }
 .foot-small { font-size: .85rem; }
 
+/* ---------- enlace al test final (portada y menú) */
+.menu-extra.test { color: var(--wine); border-top: 0; margin-top: 0; padding-top: .55rem; }
+.test-banner { max-width: 72rem; margin: 0 auto; padding: 0 clamp(1rem, 5vw, 3rem) clamp(1.5rem, 4vw, 2.5rem); }
+.test-banner a {
+  display: grid; grid-template-columns: 8.5rem 1fr auto; gap: 1.4rem; align-items: center; text-decoration: none; color: var(--ink);
+  background: var(--teal-soft); border: 2px solid var(--teal); border-radius: 22px; padding: 1rem 1.5rem 1rem 1rem; box-shadow: 0 5px 0 var(--teal);
+  transition: transform .08s ease, box-shadow .08s ease;
+}
+.test-banner a:active { transform: translateY(3px); box-shadow: 0 2px 0 var(--teal); }
+.test-banner img { width: 8.5rem; height: 8.5rem; object-fit: cover; border-radius: 50%; background: #000; border: 4px solid var(--card); }
+.test-banner b { display: block; font: 700 clamp(1.5rem, 3.5vw, 2rem) var(--serif); color: var(--brown); margin-bottom: .2rem; }
+.test-banner span span { color: var(--muted); }
+.test-banner .qbtn {
+  font: 700 1rem var(--sans); background: var(--wine); color: #fff; border-radius: 16px; padding: .8rem 1.4rem;
+  box-shadow: 0 4px 0 #5e161d; white-space: nowrap;
+}
+@media (max-width: 560px) {
+  .test-banner a { grid-template-columns: 5rem 1fr; padding-right: 1rem; }
+  .test-banner img { width: 5rem; height: 5rem; }
+  .test-banner .qbtn { display: none; }
+}
+
 /* visor */
 .lightbox { position: fixed; inset: 0; z-index: 100; background: rgba(15, 10, 6, .92); display: grid; place-items: center; padding: 1rem; }
 .lightbox[hidden] { display: none; }
