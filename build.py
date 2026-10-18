@@ -533,16 +533,15 @@ def test_page():
       <li><b>{n_tr}</b> de traducción</li>
     </ul>
     <fieldset class="qi-lang">
-      <legend>Traducciones con</legend>
+      <legend>Elige tu idioma para las traducciones</legend>
       <div class="opts">
-        <label><input type="radio" name="lang" value="mix" checked><span>Los tres idiomas</span></label>
         <label><input type="radio" name="lang" value="en"><span lang="en">English</span></label>
         <label><input type="radio" name="lang" value="ru"><span lang="ru">Русский</span></label>
         <label><input type="radio" name="lang" value="sr"><span lang="sr-Latn">Srpski</span></label>
       </div>
     </fieldset>
     <div class="qi-go">
-      <button type="button" class="qbtn" id="start">Empezar el test</button>
+      <button type="button" class="qbtn" id="start" disabled>Empezar el test</button>
       <p class="qi-best" aria-live="polite"></p>
     </div>
   </div>

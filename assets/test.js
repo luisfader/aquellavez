@@ -135,7 +135,8 @@
 
   function start() {
     var checked = $('input[name="lang"]:checked');
-    state.lang = checked ? checked.value : "mix";
+    if (!checked) return;  // hay que elegir un idioma antes de empezar
+    state.lang = checked.value;
     var saved = store.get(); saved.lang = state.lang; store.set(saved);
     state.items = buildItems(); state.i = 0; state.results = []; state.streak = 0; state.best = 0;
     show("play"); next();
@@ -568,8 +569,12 @@
     if (s.best != null && s.attempts) b.innerHTML = "Tu mejor resultado: <b>" + s.best + " %</b>" + (s.passed ? ", aprobado." : ".");
     else b.textContent = "Puedes repetir el test todas las veces que quieras; cada intento tiene preguntas distintas.";
     if (s.lang) { var r = $('input[name="lang"][value="' + s.lang + '"]'); if (r) r.checked = true; }
+    $("#start").disabled = !$('input[name="lang"]:checked');
   }
   $("#start").addEventListener("click", start);
+  Array.prototype.forEach.call(document.querySelectorAll('input[name="lang"]'), function (r) {
+    r.addEventListener("change", function () { $("#start").disabled = false; });
+  });
   var muteBtn = $(".qp-mute");
   if (muteBtn) {
     state.mute = !!store.get().mute;
