@@ -4,7 +4,6 @@ ref: pronombres personales, ser y tener
 img: 628-203
 
 ### En la plaza España
-img: 628-201
 
 :::dialog
 Luis: ¡Hola, Robert! ¿Cómo estás?
