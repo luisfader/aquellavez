@@ -322,7 +322,7 @@
         c._from = t; t.classList.add("ghost"); t.setAttribute("aria-hidden", "true");
         c.addEventListener("click", function () { remove(c); });
         line.appendChild(c); chosen.push(c);
-        if (dst === "es") speak(t.textContent, true);
+        if (dst === "es") speak(q.voz ? q.es + " :: " + t.textContent : t.textContent, true);
         setReady(chosen.length > 0);
       }
       function remove(c) {

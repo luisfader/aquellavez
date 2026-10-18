@@ -659,51 +659,9 @@
   "voz": "cualquiera",
   "origen": "grabación"
  },
- "111": {
-  "texto": "llamo",
-  "archivo": "dd125b49db7a.mp3",
-  "voz": "cualquiera",
-  "origen": "grabación"
- },
- "112": {
-  "texto": "Alicia",
-  "archivo": "76f9a187fef8.mp3",
-  "voz": "cualquiera",
-  "origen": "grabación"
- },
- "113": {
-  "texto": "y",
-  "archivo": "95cb0bfd2977.mp3",
-  "voz": "cualquiera",
-  "origen": "grabación"
- },
- "114": {
-  "texto": "soy",
-  "archivo": "55e30b376939.mp3",
-  "voz": "cualquiera",
-  "origen": "grabación"
- },
- "115": {
-  "texto": "astróloga",
-  "archivo": "42c66e7698bb.mp3",
-  "voz": "mujer",
-  "origen": "grabación"
- },
- "116": {
-  "texto": "llamas",
-  "archivo": "f2e2d844b3e0.mp3",
-  "voz": "cualquiera",
-  "origen": "grabación"
- },
  "117": {
   "texto": "es",
   "archivo": "09cd68a2a77b.mp3",
-  "voz": "cualquiera",
-  "origen": "grabación"
- },
- "118": {
-  "texto": "astrólogo",
-  "archivo": "39f6cdf08cb8.mp3",
   "voz": "cualquiera",
   "origen": "grabación"
  },
@@ -1138,5 +1096,59 @@
   "archivo": "2fc22e11a90e.mp3",
   "voz": "cualquiera",
   "origen": "grabación"
+ },
+ "191": {
+  "texto": "Me llamo Alicia y soy astróloga. :: Me",
+  "archivo": "9291c4cb7ae2.mp3",
+  "voz": "mujer",
+  "origen": "Daniela (sintética)"
+ },
+ "192": {
+  "texto": "Me llamo Alicia y soy astróloga. :: llamo",
+  "archivo": "c23f34508805.mp3",
+  "voz": "mujer",
+  "origen": "Daniela (sintética)"
+ },
+ "193": {
+  "texto": "Me llamo Alicia y soy astróloga. :: Alicia",
+  "archivo": "765ca6aa3cc9.mp3",
+  "voz": "mujer",
+  "origen": "Daniela (sintética)"
+ },
+ "194": {
+  "texto": "Me llamo Alicia y soy astróloga. :: y",
+  "archivo": "69608d5273a5.mp3",
+  "voz": "mujer",
+  "origen": "Daniela (sintética)"
+ },
+ "195": {
+  "texto": "Me llamo Alicia y soy astróloga. :: soy",
+  "archivo": "d791eb4203f7.mp3",
+  "voz": "mujer",
+  "origen": "Daniela (sintética)"
+ },
+ "196": {
+  "texto": "Me llamo Alicia y soy astróloga. :: astróloga",
+  "archivo": "19508a8bc048.mp3",
+  "voz": "mujer",
+  "origen": "grabación"
+ },
+ "197": {
+  "texto": "Me llamo Alicia y soy astróloga. :: llamas",
+  "archivo": "6a81ffe4de2b.mp3",
+  "voz": "mujer",
+  "origen": "Daniela (sintética)"
+ },
+ "198": {
+  "texto": "Me llamo Alicia y soy astróloga. :: es",
+  "archivo": "74914d18e4b4.mp3",
+  "voz": "mujer",
+  "origen": "Daniela (sintética)"
+ },
+ "199": {
+  "texto": "Me llamo Alicia y soy astróloga. :: astrólogo",
+  "archivo": "365dab89d710.mp3",
+  "voz": "mujer",
+  "origen": "Daniela (sintética)"
  }
 }

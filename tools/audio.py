@@ -34,7 +34,8 @@ def key(text):
 
 def spoken(text):
     """Lo que se lee en voz alta: sin pistas entre paréntesis ni flechas."""
-    t = re.sub(r"\s*\([^)]*\)", "", text).replace("→", " ").replace("…", " ")
+    t = text.split(" :: ")[-1]  # «frase :: palabra» → solo la palabra
+    t = re.sub(r"\s*\([^)]*\)", "", t).replace("→", " ").replace("…", " ")
     return re.sub(r"\s+", " ", t).strip()
 
 
@@ -64,7 +65,9 @@ def texts():
         out += [p[0] for p in q["items"]]
     for q in data["tiles"]:
         out.append(q["es"])
-        out += words(q["es"]) + q.get("x", {}).get("es", [])
+        toks = words(q["es"]) + q.get("x", {}).get("es", [])
+        # con voz propia, las fichas de esta frase tienen sus propios audios
+        out += [q["es"] + " :: " + w for w in toks] if q.get("voz") else toks
     for q in data["choice"]:
         out += q["es"]
     seen, uniq = set(), []

@@ -10,6 +10,7 @@
  *  tiles:   traducción con fichas. "dir" indica las direcciones posibles:
  *           "to_es"  = de en/ru/sr al español;  "both" = también del español a en/ru/sr.
  *           "alt" = otras respuestas válidas. "x" = fichas que sobran (distractores).
+ *           voz: "mujer" = las fichas de esta frase tienen audios propios (los dice una mujer).
  *  choice:  traducción de opción múltiple. La primera opción de cada idioma es la correcta.
  */
 window.AV_TEST = {
@@ -118,7 +119,7 @@ window.AV_TEST = {
   ],
 
   tiles: [
-    { img: "639-132", dir: "to_es",
+    { img: "639-132", dir: "to_es", voz: "mujer",
       es: "Me llamo Alicia y soy astróloga.",
       en: "My name is Alicia and I am an astrologer.",
       ru: "Меня зовут Алисия, и я астролог.",
