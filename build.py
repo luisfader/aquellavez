@@ -4,6 +4,7 @@
 Uso:  python3 build.py
 Requiere Pillow (pip install pillow) para leer el tamaño de las ilustraciones.
 """
+import hashlib
 import html
 import json
 import os
@@ -28,6 +29,12 @@ UNITS = [
 ]
 
 _size_cache = {}
+
+
+def v(path):
+    """assets/x.js → assets/x.js?v=<huella>: el navegador descarga la versión nueva cuando el archivo cambia."""
+    with open(os.path.join(ROOT, path), "rb") as f:
+        return f"{path}?v={hashlib.sha1(f.read()).hexdigest()[:8]}"
 
 
 def _test_draw():
@@ -267,7 +274,7 @@ HEAD = """<!doctype html>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/style.css">{extra_css}
+<link rel="stylesheet" href="{style_css}">{extra_css}
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
 <meta property="og:image" content="img/651-12.jpg">
@@ -291,13 +298,13 @@ FOOT_TPL = """<footer class="foot">
   <p class="foot-small">Los textos, personajes e ilustraciones pertenecen al autor.</p>
 </footer>
 <div class="lightbox" hidden><button type="button" class="lb-close" aria-label="Cerrar">×</button><img alt=""></div>
-<script src="assets/site.js"></script>
+<script src="{site_js}"></script>
 {scripts}</body>
 </html>
 """
 
 
-FOOT = FOOT_TPL.format(scripts="")
+FOOT = FOOT_TPL.format(scripts="", site_js=v("assets/site.js"))
 
 
 def menu(active=None):
@@ -309,7 +316,7 @@ def menu(active=None):
 
 
 def head(title, desc, bodycls="", active=None, extra_css=""):
-    return HEAD.format(title=html.escape(title), desc=html.escape(desc), bodycls=bodycls, menu=menu(active), extra_css=extra_css)
+    return HEAD.format(title=html.escape(title), desc=html.escape(desc), bodycls=bodycls, menu=menu(active), extra_css=extra_css, style_css=v("assets/style.css"))
 
 
 def unit_page(n, cover, tema, sections):
@@ -512,7 +519,7 @@ def test_page():
         "Test final · Aquella vez",
         "Test final del manual de español Aquella vez: gramática, vocabulario y traducción del inglés, el ruso y el serbio.",
         "quiz",
-        extra_css='\n<link rel="stylesheet" href="assets/test.css">',
+        extra_css=f'\n<link rel="stylesheet" href="{v("assets/test.css")}">',
     )
     page += f"""<main id="main" class="quiz-main">
 <section class="quiz-intro" id="intro" aria-labelledby="qi-t">
@@ -569,11 +576,11 @@ def test_page():
 </div>
 <noscript><p style="text-align:center;padding:2rem">El test necesita JavaScript activado en el navegador.</p></noscript>
 """
-    page += FOOT_TPL.format(scripts=(
+    page += FOOT_TPL.format(site_js=v("assets/site.js"), scripts=(
         f'<script>window.AV_IMG_SIZES={sizes_js};</script>\n'
-        '<script src="assets/test-data.js"></script>\n'
-        '<script src="assets/audio-map.js"></script>\n'
-        '<script src="assets/test.js"></script>\n'
+        f'<script src="{v("assets/test-data.js")}"></script>\n'
+        f'<script src="{v("assets/audio-map.js")}"></script>\n'
+        f'<script src="{v("assets/test.js")}"></script>\n'
     ))
     return page
 

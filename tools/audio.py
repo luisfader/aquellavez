@@ -123,6 +123,11 @@ def synth(tts, text, mp3):
     os.remove(wav)
 
 
+def file_hash(path):
+    with open(path, "rb") as f:
+        return hashlib.sha1(f.read()).hexdigest()[:8]
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     items = texts()
@@ -140,8 +145,10 @@ def main():
     for f in removed:
         os.remove(os.path.join(OUT, f))
     with open(MAP, "w", encoding="utf-8") as f:
-        f.write("/* Generado por tools/audio.py: texto → archivo de audio/ (voz Daniela). No editar a mano. */\n")
-        f.write("window.AV_AUDIO = " + json.dumps(mapping, ensure_ascii=False, indent=0, sort_keys=True) + ";\n")
+        f.write("/* Generado por tools/audio.py: texto → archivo de audio/ (con ?v= según el contenido). No editar a mano. */\n")
+        # ?v= cambia cuando cambia el audio, así el navegador no reproduce una versión vieja guardada
+        versioned = {t: f"{a}?v={file_hash(os.path.join(OUT, a))}" for t, a in mapping.items()}
+        f.write("window.AV_AUDIO = " + json.dumps(versioned, ensure_ascii=False, indent=0, sort_keys=True) + ";\n")
     print(f"{len(items)} audios en audio/ ({len(todo)} nuevos, {len(removed)} borrados)")
 
 
