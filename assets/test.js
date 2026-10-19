@@ -308,7 +308,18 @@
       scene(q.img, "", bubble, wrap);
       var target = toEs ? q.es : q[L];
       var accepted = [target].concat((q.alt && q.alt[dst]) || []).map(norm);
-      var tokens = words(target).concat((q.x && q.x[dst]) || []);
+      // Cada variante válida debe poder construirse con las fichas disponibles.
+      // Añadimos solo las palabras adicionales necesarias (incluidas repeticiones).
+      var tokens = words(target);
+      ((q.alt && q.alt[dst]) || []).forEach(function (variant) {
+        var needed = {};
+        words(variant).forEach(function (w) { needed[w] = (needed[w] || 0) + 1; });
+        Object.keys(needed).forEach(function (w) {
+          var existing = tokens.filter(function (t) { return t === w; }).length;
+          for (var k = existing; k < needed[w]; k++) tokens.push(w);
+        });
+      });
+      tokens = tokens.concat((q.x && q.x[dst]) || []);
       var line = el("div", { class: "answer-line", "aria-label": "Tu respuesta", lang: dst });
       var bank = el("div", { class: "bank", lang: dst });
       var chosen = [];
