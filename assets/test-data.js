@@ -179,6 +179,7 @@ window.AV_TEST = {
       en: "Nátasha is playing the gusli.",
       ru: "Наташа играет на гуслях.",
       sr: "Nataša svira gusle.",
+      alt: { es: ["Nátasha toca el gusli."] },
       x: { es: ["es", "toca", "tocado"], en: ["plays", "was", "a"], ru: ["играла", "гусли", "в"], sr: ["svirala", "je", "gusla"] } },
     { img: "639-206", dir: "both",
       es: "Luis es más alto que Marcos.",
