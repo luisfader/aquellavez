@@ -28,6 +28,20 @@ UNITS = [
     (10, "639-663", "Biografías, estados y despedida"),
 ]
 
+# Unidades abiertas a los alumnos. Las demás se publican solo con su portada
+# y un candado. Para abrir una unidad, añade su número y ejecuta build.py.
+UNLOCKED = {1}
+
+LOCK = ('<svg class="lock-ico" viewBox="0 0 24 24" aria-hidden="true">'
+        '<path d="M7 10V7a5 5 0 0 1 10 0v3" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>'
+        '<rect x="4" y="10" width="16" height="11" rx="2.5" fill="currentColor"/>'
+        '<circle cx="12" cy="15.2" r="1.7" fill="var(--card)"/><path d="M12 16v2.2" stroke="var(--card)" stroke-width="1.6" stroke-linecap="round"/></svg>')
+
+
+def is_open(n):
+    return n in UNLOCKED
+
+
 _size_cache = {}
 
 
@@ -311,7 +325,10 @@ def menu(active=None):
     out = []
     for n, _, tema in UNITS:
         cur = ' aria-current="page"' if n == active else ""
-        out.append(f'<li><a href="unidad-{n}.html"{cur}><b>{n}</b><span>{html.escape(tema)}</span></a></li>')
+        if is_open(n):
+            out.append(f'<li><a href="unidad-{n}.html"{cur}><b>{n}</b><span>{html.escape(tema)}</span></a></li>')
+        else:
+            out.append(f'<li class="locked"><span aria-disabled="true"><b>{n}</b><span>{html.escape(tema)}</span>{LOCK}</span></li>')
     return "".join(out)
 
 
@@ -339,7 +356,10 @@ def unit_page(n, cover, tema, sections):
             f'<div class="prose">{blocks(s["lines"], {"alt": s["title"]})}</div></section>'
         )
     prev_l = f'<a class="pn prev" href="unidad-{n-1}.html"><small>Anterior</small>Unidad {n-1}</a>' if n > 1 else '<a class="pn prev" href="index.html"><small>Volver</small>Portada</a>'
-    next_l = f'<a class="pn next" href="unidad-{n+1}.html"><small>Siguiente</small>Unidad {n+1}</a>' if n < 10 else '<a class="pn next" href="test-final.html"><small>Para terminar</small>Test final</a>'
+    if n < 10 and not is_open(n + 1):
+        next_l = f'<span class="pn next locked"><small>Próximamente</small>Unidad {n+1} {LOCK}</span>'
+    else:
+        next_l = f'<a class="pn next" href="unidad-{n+1}.html"><small>Siguiente</small>Unidad {n+1}</a>' if n < 10 else '<a class="pn next" href="test-final.html"><small>Para terminar</small>Test final</a>'
     w, h = img_size(cover)
     page = head(f"Unidad {n} · Aquella vez", f"Unidad {n} del manual de español Aquella vez, de Luis Fader: {tema}.", "unit", n)
     page += f"""<main id="main">
@@ -364,6 +384,26 @@ def unit_page(n, cover, tema, sections):
     return page
 
 
+def locked_unit_page(n, cover, tema):
+    w, h = img_size(cover)
+    page = head(f"Unidad {n} · Aquella vez", f"Unidad {n} del manual de español Aquella vez, de Luis Fader: {tema}.", "unit", n)
+    page += f"""<main id="main">
+<section class="unit-hero unit-locked">
+  <div class="unit-hero-text">
+    <p class="eyebrow">Aquella vez · Manual de español</p>
+    <h1><span>Unidad</span> {n}</h1>
+    <p class="tema">{html.escape(tema)}</p>
+    <p class="locked-msg">{LOCK} Esta unidad todavía no está disponible. Se abrirá más adelante.</p>
+    <p class="cta"><a class="btn" href="unidad-1.html">Ir a la Unidad 1</a><a class="btn ghost" href="index.html">Volver a la portada</a></p>
+  </div>
+  <figure class="unit-cover locked-cover"><img src="img/{cover}.jpg" width="{w}" height="{h}" alt="Portada de la unidad {n}"><span class="lock-badge">{LOCK}</span></figure>
+</section>
+</main>
+"""
+    page += FOOT
+    return page
+
+
 def index_page(all_sections):
     cards = []
     for (n, cover, tema), secs in zip(UNITS, all_sections):
@@ -371,6 +411,14 @@ def index_page(all_sections):
             f"<li>{sec_label(s['letter'])}. {inline(s['title'])}</li>" for s in secs if s["letter"] != "N"
         )
         w, h = img_size(cover)
+        if not is_open(n):
+            cards.append(
+                f'<li class="ucard locked"><div aria-disabled="true">'
+                f'<span class="ucard-img"><img src="img/{cover}.jpg" width="{w}" height="{h}" loading="lazy" alt=""><span class="lock-badge">{LOCK}</span></span>'
+                f'<span class="ucard-body"><span class="ucard-n">Unidad {n} · Próximamente</span>'
+                f'<span class="ucard-t">{html.escape(tema)}</span></span></div></li>'
+            )
+            continue
         cards.append(
             f'<li class="ucard"><a href="unidad-{n}.html">'
             f'<img src="img/{cover}.jpg" width="{w}" height="{h}" loading="lazy" alt="">'
@@ -429,7 +477,7 @@ def index_page(all_sections):
   <div>
     <h2 id="p-t">Los personajes</h2>
     <p>Luis, Nátasha, Natalia Rosa, Roberto, Alicia y Marcos —y muchos más— viajan por Sinea, Madrid, San Petersburgo y la fortaleza turquesa. Con ellos el español se aprende en situaciones divertidas, misteriosas y románticas.</p>
-    <p><a class="btn ghost" href="unidad-8.html#c">Conocerlos en la Unidad 8</a></p>
+    {'<p><a class="btn ghost" href="unidad-8.html#c">Conocerlos en la Unidad 8</a></p>' if is_open(8) else ''}
   </div>
   <figure class="fig land"><img src="img/639-482.jpg" width="{img_size('639-482')[0]}" height="{img_size('639-482')[1]}" loading="lazy" alt="Los personajes: Luis, Nátasha, Natalia Rosa, Roberto, Alicia y Marcos" data-zoom></figure>
 </section>
@@ -439,10 +487,10 @@ def index_page(all_sections):
     <img src="img/639-800.jpg" width="{img_size('639-800')[0]}" height="{img_size('639-800')[1]}" loading="lazy" alt="Retrato de Luis Fader">
     <span><small>Entrevista</small><b>Conversación con Luis Fader</b><span>Por qué un manual con personajes, novelas y misterios.</span></span>
   </a>
-  <a class="autor-card" href="unidad-10.html#g">
+  <{'a' if is_open(10) else 'div'} class="autor-card{'' if is_open(10) else ' locked'}"{' href="unidad-10.html#g"' if is_open(10) else ' aria-disabled="true"'}>
     <img src="img/2923-15.jpg" width="{img_size('2923-15')[0]}" height="{img_size('2923-15')[1]}" loading="lazy" alt="Historieta final">
-    <span><small>Repaso final</small><b>¡Hasta la próxima!</b><span>La historieta que cierra el libro.</span></span>
-  </a>
+    <span><small>Repaso final</small><b>¡Hasta la próxima!</b><span>La historieta que cierra el libro.</span></span>{'' if is_open(10) else '<span class="lock-badge">' + LOCK + '</span>'}
+  </{'a' if is_open(10) else 'div'}>
 </section>
 </main>
 """
@@ -491,7 +539,7 @@ def interview_page():
 </header>
 <article class="iv">{qa}</article>
 <figure class="fig wide iv-books"><img src="img/639-804.jpg" width="{w2}" height="{h2}" loading="lazy" alt="Novelas de Robert Fader" data-zoom></figure>
-<nav class="prevnext"><a class="pn prev" href="unidad-10.html"><small>Volver</small>Unidad 10</a><a class="pn next" href="index.html"><small>Inicio</small>Portada</a></nav>
+<nav class="prevnext"><a class="pn prev" href="unidad-{max(UNLOCKED)}.html"><small>Volver</small>Unidad {max(UNLOCKED)}</a><a class="pn next" href="index.html"><small>Inicio</small>Portada</a></nav>
 </main>
 """
     page += FOOT
@@ -590,7 +638,7 @@ def main():
         secs = parse_unit(n)
         all_sections.append(secs)
         with open(os.path.join(ROOT, f"unidad-{n}.html"), "w", encoding="utf-8") as f:
-            f.write(unit_page(n, cover, tema, secs))
+            f.write(unit_page(n, cover, tema, secs) if is_open(n) else locked_unit_page(n, cover, tema))
     with open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8") as f:
         f.write(index_page(all_sections))
     with open(os.path.join(ROOT, "entrevista.html"), "w", encoding="utf-8") as f:

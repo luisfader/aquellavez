@@ -29,6 +29,12 @@ Formato rápido de `content/`:
 - `:::vf … :::`: frases de verdadero o falso. `:::q … :::`: preguntas con respuesta.
 - `:::box Título … :::`, `:::tip … :::`, `:::table … :::` (columnas con `|`), `:::cols` / `:::col`.
 
+## Unidades bloqueadas
+
+En `build.py`, `UNLOCKED = {1}` indica qué unidades pueden ver los alumnos. Las demás se publican
+solo con su portada, semitransparente y con un candado, sin su contenido. Para abrir una unidad,
+añade su número (por ejemplo `UNLOCKED = {1, 2}`), ejecuta `python3 build.py` y sube los cambios.
+
 ## Publicación
 
 El sitio se publica con GitHub Pages desde la rama `main` (carpeta raíz).

@@ -371,3 +371,39 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--paper-2) 55%,
   .topbar, .sec-nav, .tools, .prevnext, .lightbox { display: none !important; }
   body { background: #fff; }
 }
+
+/* ---------- unidades bloqueadas */
+.lock-ico { width: 1em; height: 1em; display: inline-block; vertical-align: -.12em; color: var(--brown); }
+.lock-badge {
+  position: absolute; inset: 0; display: grid; place-items: center; pointer-events: none;
+}
+.lock-badge .lock-ico {
+  width: 3.6rem; height: 3.6rem; padding: .85rem; border-radius: 50%; box-sizing: content-box;
+  background: var(--card); color: var(--wine); box-shadow: 0 8px 24px rgba(42,29,19,.28);
+}
+.ucard.locked > div {
+  display: flex; flex-direction: column; height: 100%; color: var(--ink); cursor: not-allowed;
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+}
+.ucard-img { position: relative; display: block; }
+.ucard.locked img, .locked-cover img, .autor-card.locked img { opacity: .38; filter: grayscale(.6) blur(1px); }
+.ucard.locked .ucard-body { opacity: .6; }
+.ucard.locked .ucard-n { color: var(--muted); }
+.autor-card.locked { position: relative; cursor: not-allowed; }
+.autor-card.locked > span:not(.lock-badge) { opacity: .55; }
+.autor-card.locked .lock-badge { place-items: center start; padding-left: 2.6rem; }
+.autor-card.locked .lock-badge .lock-ico { width: 1.6rem; height: 1.6rem; padding: .5rem; }
+.menu li.locked > span {
+  display: flex; gap: .8rem; align-items: baseline; padding: .55rem .7rem; border-radius: 10px;
+  color: var(--muted); opacity: .6; cursor: not-allowed;
+}
+.menu li.locked b { font: 700 1.05rem var(--serif); color: var(--muted); min-width: 1.6rem; }
+.menu li.locked .lock-ico { margin-left: auto; align-self: center; color: var(--muted); }
+.pn.locked { opacity: .55; cursor: not-allowed; }
+.pn.locked:hover { border-color: var(--line); }
+.locked-cover { position: relative; }
+.locked-msg {
+  display: flex; gap: .6rem; align-items: center; background: var(--wine-soft); color: var(--ink);
+  border-radius: var(--radius); padding: .8rem 1rem; margin: 1.2rem 0;
+}
+.locked-msg .lock-ico { width: 1.4rem; height: 1.4rem; flex: none; color: var(--wine); }
