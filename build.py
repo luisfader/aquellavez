@@ -30,7 +30,7 @@ UNITS = [
 
 # Unidades abiertas a los alumnos. Las demás se publican solo con su portada
 # y un candado. Para abrir una unidad, añade su número y ejecuta build.py.
-UNLOCKED = {1}
+UNLOCKED = {1, 2}
 
 LOCK = ('<svg class="lock-ico" viewBox="0 0 24 24" aria-hidden="true">'
         '<path d="M7 10V7a5 5 0 0 1 10 0v3" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>'
