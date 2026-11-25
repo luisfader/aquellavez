@@ -407,3 +407,31 @@ tbody tr:nth-child(even) td { background: color-mix(in srgb, var(--paper-2) 55%,
   border-radius: var(--radius); padding: .8rem 1rem; margin: 1.2rem 0;
 }
 .locked-msg .lock-ico { width: 1.4rem; height: 1.4rem; flex: none; color: var(--wine); }
+
+/* ---------- curiosidades de Argentina */
+.menu-extra.curio { border-top: 0; margin-top: 0; padding-top: .55rem; color: #2f7fb5; }
+.curio-flag { display: grid; grid-template-rows: 1fr 1fr 1fr; width: 8.5rem; height: 5.6rem; border-radius: 12px; overflow: hidden; border: 4px solid var(--card); box-shadow: var(--shadow); }
+.curio-flag i { display: grid; place-items: center; background: #74acdf; }
+.curio-flag i:nth-child(2) { background: #fff; }
+.curio-flag b { width: 1.25rem; height: 1.25rem; border-radius: 50%; background: #f6b40e; box-shadow: 0 0 0 3px #fbe29a; }
+.curio-flag.big { justify-self: center; width: min(20rem, 80vw); height: auto; aspect-ratio: 3 / 2; border-width: 8px; border-radius: 18px; transform: rotate(2deg); }
+.curio-flag.big b { width: 3rem; height: 3rem; box-shadow: 0 0 0 7px #fbe29a; }
+.curio-banner { max-width: 72rem; margin: 0 auto; padding: 0 clamp(1rem, 5vw, 3rem) clamp(1.5rem, 4vw, 2.5rem); }
+.curio-banner a {
+  display: grid; grid-template-columns: 8.5rem 1fr auto; gap: 1.4rem; align-items: center; text-decoration: none; color: var(--ink);
+  background: #e6f1fa; border: 2px solid #74acdf; border-radius: 22px; padding: 1rem 1.5rem 1rem 1rem; box-shadow: 0 5px 0 #74acdf;
+  transition: transform .08s ease, box-shadow .08s ease;
+}
+.curio-banner a:active { transform: translateY(3px); box-shadow: 0 2px 0 #74acdf; }
+.curio-banner b { display: block; font: 700 clamp(1.5rem, 3.5vw, 2rem) var(--serif); color: var(--brown); margin-bottom: .2rem; }
+.curio-banner .curio-flag b { display: block; margin: 0; }
+.curio-banner span span { color: var(--muted); }
+.curio-banner .qbtn { font: 700 1rem var(--sans); background: #2f7fb5; color: #fff; border-radius: 16px; padding: .8rem 1.4rem; box-shadow: 0 4px 0 #1f5a82; white-space: nowrap; }
+:root[data-theme="dark"] .curio-banner a { background: #182632; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .curio-banner a { background: #182632; } }
+@media (max-width: 560px) {
+  .curio-banner a { grid-template-columns: 5rem 1fr; padding-right: 1rem; }
+  .curio-banner .curio-flag { width: 5rem; height: 3.4rem; }
+  .curio-banner .qbtn { display: none; }
+}
+@media (max-width: 860px) { .curio-flag.big { order: -1; width: 12rem; } }

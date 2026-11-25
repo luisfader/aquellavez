@@ -255,7 +255,11 @@ def blocks(lines, ctx):
 
 # ---------------------------------------------------------------- pages
 def parse_unit(n):
-    path = os.path.join(ROOT, "content", f"u{n:02d}.txt")
+    return parse_file(f"u{n:02d}.txt")
+
+
+def parse_file(name):
+    path = os.path.join(ROOT, "content", name)
     with open(path, encoding="utf-8") as f:
         lines = f.read().split("\n")
     sections, cur = [], None
@@ -301,6 +305,7 @@ HEAD = """<!doctype html>
   <nav id="menu" class="menu" aria-label="Unidades">
     <ol>{menu}</ol>
     <a class="menu-extra" href="entrevista.html">Entrevista con el autor</a>
+    <a class="menu-extra curio" href="curiosidades.html">Curiosidades de Argentina</a>
     <a class="menu-extra test" href="test-final.html">Test final</a>
   </nav>
 </header>
@@ -473,6 +478,14 @@ def index_page(all_sections):
   </a>
 </section>
 
+<section class="curio-banner" aria-label="Curiosidades de Argentina">
+  <a href="curiosidades.html">
+    <span class="curio-flag" aria-hidden="true"><i></i><i><b></b></i><i></i></span>
+    <span><b>Curiosidades de Argentina</b><span>El pueblo del orégano, la birome, el colectivo y otros datos sorprendentes. Lecturas y ejercicios de nivel A2.</span></span>
+    <span class="qbtn">Leer</span>
+  </a>
+</section>
+
 <section class="personajes" aria-labelledby="p-t">
   <div>
     <h2 id="p-t">Los personajes</h2>
@@ -632,6 +645,47 @@ def test_page():
     return page
 
 
+CURIO_LABELS = {"A": "A", "B": "B", "C": "C", "S": "✓"}
+
+
+def curiosidades_page(sections):
+    """Página extra «Curiosidades de Argentina» (nivel A2). Texto en content/curiosidades.txt."""
+    tabs = "".join(
+        f'<li><a href="#{s["letter"].lower()}"><b>{CURIO_LABELS.get(s["letter"], s["letter"])}</b> {inline(s["title"])}</a></li>'
+        for s in sections
+    )
+    body = "".join(
+        f'<section class="unit-sec" id="{s["letter"].lower()}" data-letter="{s["letter"]}">'
+        f'<header class="sec-head"><span class="sec-letter">{CURIO_LABELS.get(s["letter"], s["letter"])}</span>'
+        f'<h2>{inline(s["title"])}</h2></header>'
+        f'<div class="prose">{blocks(s["lines"], {"alt": s["title"]})}</div></section>'
+        for s in sections
+    )
+    page = head("Curiosidades de Argentina · Aquella vez",
+                "Curiosidades de Argentina para estudiantes de español de nivel A2: el pueblo del orégano, la birome, el colectivo, el mate y más, con ejercicios.",
+                "unit curio")
+    page += f"""<main id="main">
+<section class="unit-hero curio-hero">
+  <div class="unit-hero-text">
+    <p class="eyebrow">Aquella vez · Sección extra · Nivel A2</p>
+    <h1><span>Curiosidades de</span> Argentina</h1>
+    <p class="tema">Datos sorprendentes para leer, aprender y conversar</p>
+    <ol class="toc">{tabs}</ol>
+  </div>
+  <div class="curio-flag big" aria-hidden="true"><i></i><i><b></b></i><i></i></div>
+</section>
+<nav class="sec-nav" aria-label="Secciones"><ol>{tabs}</ol></nav>
+<div class="unit-body">
+{body}
+<div class="tools"><button type="button" class="clear-answers">Borrar mis respuestas de esta página</button></div>
+<nav class="prevnext"><a class="pn prev" href="unidad-{max(UNLOCKED)}.html"><small>Volver</small>Unidad {max(UNLOCKED)}</a><a class="pn next" href="index.html"><small>Inicio</small>Portada</a></nav>
+</div>
+</main>
+"""
+    page += FOOT
+    return page
+
+
 def main():
     all_sections = []
     for n, cover, tema in UNITS:
@@ -645,7 +699,9 @@ def main():
         f.write(interview_page())
     with open(os.path.join(ROOT, "test-final.html"), "w", encoding="utf-8") as f:
         f.write(test_page())
-    print("Sitio generado:", len(UNITS), "unidades + portada + entrevista + test final")
+    with open(os.path.join(ROOT, "curiosidades.html"), "w", encoding="utf-8") as f:
+        f.write(curiosidades_page(parse_file("curiosidades.txt")))
+    print("Sitio generado:", len(UNITS), "unidades + portada + entrevista + test final + curiosidades")
 
 
 if __name__ == "__main__":

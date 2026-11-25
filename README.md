@@ -8,6 +8,7 @@ Sitio web del manual de español para extranjeros **Aquella vez**, de Luis Fader
 - `unidad-1.html` … `unidad-10.html`: cada unidad con sus secciones (A, B, C, Gramática, Cultura, Historieta y Notas).
 - `entrevista.html`: entrevista con el autor.
 - `test-final.html`: test final de gramática, vocabulario y traducción (inglés, ruso y serbio).
+- `curiosidades.html`: sección extra «Curiosidades de Argentina» (nivel A2), con lecturas, ejercicios y soluciones. Su texto está en `content/curiosidades.txt` (mismo formato que las unidades; secciones A, B, C y S = Soluciones). Tiene enlace en el menú y un recuadro en la portada.
 - `content/`: el texto de cada unidad en formato simple (fácil de editar).
 - `img/`: ilustraciones del manual.
 - `assets/`: estilos (`style.css`) y comportamiento (`site.js`).
